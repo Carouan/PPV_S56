@@ -1,0 +1,797 @@
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> $Vault = "G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26"
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> Set-Location $Vault
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> $subgit = "07_PUBLISH TO GITHUB\PPV_S56\.git"
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> if (Test-Path $subgit) {
+>>   Rename-Item -LiteralPath $subgit -NewName ("_git_BACKUP_{0:yyyyMMddHHmmss}" -f (Get-Date)) -Force
+>> }
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> # S'il existe un fichier .gitmodules (résidu d'une tentative de sous-module), on le met de côté :
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> if (Test-Path ".gitmodules") { Rename-Item ".gitmodules" ("gitmodules_BACKUP_{0:yyyyMMddHHmmss}" -f (Get-Date)) -Force }
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> # s'assurer que le dépôt racine existe
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> if (-not (Test-Path ".git")) { git init; git config --local init.defaultBranch main }
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26>
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> git add -A
+warning: in the working copy of '.gitattributes', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.gitignore', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/app.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/appearance.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/bookmarks.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/community-plugins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/core-plugins.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/file-recovery.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/graph.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/page-preview.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/abbreviations-mark/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/abbreviations-mark/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/abbreviations-mark/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/color-folders-files/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/color-folders-files/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/colored-tags/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/colored-tags/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/colored-tags/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/colored-text/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/colored-text/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/colored-text/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/colored-text/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/discord-message-sender/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/discord-message-sender/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/easy-keep-view/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/easy-keep-view/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/easy-keep-view/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/easy-keep-view/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/google-contacts/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/google-contacts/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/google-contacts/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/markdown-blogger/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/markdown-blogger/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/mermaid-tools/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/mermaid-tools/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-custom-frames/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-custom-frames/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-custom-frames/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-custom-frames/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-git/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-git/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-git/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-mind-map/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-mkdocs-publisher/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-mkdocs-publisher/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-mkdocs-publisher/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-mkdocs-publisher/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-style-settings/data.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-style-settings/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-style-settings/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/obsidian-style-settings/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/simple-colored-folder/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/simple-colored-folder/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/simple-colored-folder/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/templater-obsidian/main.js', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/templater-obsidian/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/plugins/templater-obsidian/styles.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/switcher.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/themes/Things/manifest.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/themes/Things/theme.css', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '.obsidian/webviewer.json', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '00_OBSI-CORE/CANVA GLOBAL.canvas', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '00_OBSI-CORE/First Base - CoreView.base', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '00_OBSI-CORE/Modèles/obsidian-canvas-multiview-demo/Canvas/dashboard.canvas', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '00_OBSI-CORE/Modèles/obsidian-canvas-multiview-demo/Canvas/💻 DevPerso.canvas', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '00_OBSI-CORE/Modèles/obsidian-canvas-multiview-demo/Canvas/📦 Archives.canvas', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '00_OBSI-CORE/Modèles/obsidian-canvas-multiview-demo/Canvas/🗂️ FDD.canvas', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '02_PERSO/_02_ICT Global/_01_NEXT-JOB-MSP/Estim_ress_MSP_GOM.csv', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/TROUBLESHOOTING.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of '02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/roadmap.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of '02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/roadmap_.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of '02_PERSO/_02_ICT Global/plugins à explorer_2.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of '02_PERSO/_03_Famille/03.1_F-Santé/Dr Brédart.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of '02_PERSO/_03_Famille/03.1_F-Santé/Dr Leroy.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of '04_FDD/_02_Comptabilité/Logiciels comptable.md', CRLF will be replaced by LF the next time Git touches it
+warning: in the working copy of '05_Zettel_VAULT_2.0/archives/generate_important_from_titles.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '05_Zettel_VAULT_2.0/archives/split_and_clean_v2.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '05_Zettel_VAULT_2.0/archives/split_and_clean_v3.py', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '05_Zettel_VAULT_2.0/chat.html', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '05_Zettel_VAULT_2.0/cleaned_parts/titres_part100.txt', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/COMMIT_EDITMSG', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/HEAD', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/config', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/description', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/applypatch-msg.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/commit-msg.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/fsmonitor-watchman.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/post-update.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-applypatch.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-commit.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-merge-commit.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-push.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-rebase.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-receive.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/prepare-commit-msg.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/push-to-checkout.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/sendemail-validate.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/update.sample', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/info/exclude', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/logs/HEAD', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/logs/refs/heads/.invalid', LF will be replaced by CRLF the next time Git touches it
+warning: in the working copy of '07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/refs/heads/.invalid', LF will be replaced by CRLF the next time Git touches it
+warning: adding embedded git repository: 07_PUBLISH TO GITHUB/Publié
+hint: You've added another git repository inside your current repository.
+hint: Clones of the outer repository will not contain the contents of
+hint: the embedded repository and will not know how to obtain it.
+hint: If you meant to add a submodule, use:
+hint:
+hint:   git submodule add <url> 07_PUBLISH TO GITHUB/Publié
+hint:
+hint: If you added this path by mistake, you can remove it from the
+hint: index with:
+hint:
+hint:   git rm --cached 07_PUBLISH TO GITHUB/Publié
+hint:
+hint: See "git help submodule" for more information.
+hint: Disable this message with "git config set advice.addEmbeddedRepo false"
+warning: in the working copy of 'setup_all.ps1', LF will be replaced by CRLF the next time Git touches it
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> git commit -m "init vault"
+[main (root-commit) 325987c] init vault
+ 655 files changed, 1971921 insertions(+)
+ create mode 100644 .gitattributes
+ create mode 100644 .gitignore
+ create mode 100644 .obsidian/app.json
+ create mode 100644 .obsidian/appearance.json
+ create mode 100644 .obsidian/bookmarks.json
+ create mode 100644 .obsidian/community-plugins.json
+ create mode 100644 .obsidian/core-plugins.json
+ create mode 100644 .obsidian/file-recovery.json
+ create mode 100644 .obsidian/graph.json
+ create mode 100644 .obsidian/page-preview.json
+ create mode 100644 .obsidian/plugins/abbreviations-mark/main.js
+ create mode 100644 .obsidian/plugins/abbreviations-mark/manifest.json
+ create mode 100644 .obsidian/plugins/abbreviations-mark/styles.css
+ create mode 100644 .obsidian/plugins/color-folders-files/data.json
+ create mode 100644 .obsidian/plugins/color-folders-files/main.js
+ create mode 100644 .obsidian/plugins/color-folders-files/manifest.json
+ create mode 100644 .obsidian/plugins/color-folders-files/styles.css
+ create mode 100644 .obsidian/plugins/colored-tags/data.json
+ create mode 100644 .obsidian/plugins/colored-tags/main.js
+ create mode 100644 .obsidian/plugins/colored-tags/manifest.json
+ create mode 100644 .obsidian/plugins/colored-text/data.json
+ create mode 100644 .obsidian/plugins/colored-text/main.js
+ create mode 100644 .obsidian/plugins/colored-text/manifest.json
+ create mode 100644 .obsidian/plugins/colored-text/styles.css
+ create mode 100644 .obsidian/plugins/discord-message-sender/main.js
+ create mode 100644 .obsidian/plugins/discord-message-sender/manifest.json
+ create mode 100644 .obsidian/plugins/easy-keep-view/data.json
+ create mode 100644 .obsidian/plugins/easy-keep-view/main.js
+ create mode 100644 .obsidian/plugins/easy-keep-view/manifest.json
+ create mode 100644 .obsidian/plugins/easy-keep-view/styles.css
+ create mode 100644 .obsidian/plugins/google-contacts/data.json
+ create mode 100644 .obsidian/plugins/google-contacts/main.js
+ create mode 100644 .obsidian/plugins/google-contacts/manifest.json
+ create mode 100644 .obsidian/plugins/markdown-blogger/main.js
+ create mode 100644 .obsidian/plugins/markdown-blogger/manifest.json
+ create mode 100644 .obsidian/plugins/mermaid-tools/data.json
+ create mode 100644 .obsidian/plugins/mermaid-tools/main.js
+ create mode 100644 .obsidian/plugins/mermaid-tools/manifest.json
+ create mode 100644 .obsidian/plugins/mermaid-tools/styles.css
+ create mode 100644 .obsidian/plugins/obsidian-custom-frames/data.json
+ create mode 100644 .obsidian/plugins/obsidian-custom-frames/main.js
+ create mode 100644 .obsidian/plugins/obsidian-custom-frames/manifest.json
+ create mode 100644 .obsidian/plugins/obsidian-custom-frames/styles.css
+ create mode 100644 .obsidian/plugins/obsidian-git/main.js
+ create mode 100644 .obsidian/plugins/obsidian-git/manifest.json
+ create mode 100644 .obsidian/plugins/obsidian-git/styles.css
+ create mode 100644 .obsidian/plugins/obsidian-mind-map/main.js
+ create mode 100644 .obsidian/plugins/obsidian-mind-map/manifest.json
+ create mode 100644 .obsidian/plugins/obsidian-mkdocs-publisher/data.json
+ create mode 100644 .obsidian/plugins/obsidian-mkdocs-publisher/env
+ create mode 100644 .obsidian/plugins/obsidian-mkdocs-publisher/main.js
+ create mode 100644 .obsidian/plugins/obsidian-mkdocs-publisher/manifest.json
+ create mode 100644 .obsidian/plugins/obsidian-mkdocs-publisher/styles.css
+ create mode 100644 .obsidian/plugins/obsidian-style-settings/data.json
+ create mode 100644 .obsidian/plugins/obsidian-style-settings/main.js
+ create mode 100644 .obsidian/plugins/obsidian-style-settings/manifest.json
+ create mode 100644 .obsidian/plugins/obsidian-style-settings/styles.css
+ create mode 100644 .obsidian/plugins/simple-colored-folder/main.js
+ create mode 100644 .obsidian/plugins/simple-colored-folder/manifest.json
+ create mode 100644 .obsidian/plugins/simple-colored-folder/styles.css
+ create mode 100644 .obsidian/plugins/templater-obsidian/main.js
+ create mode 100644 .obsidian/plugins/templater-obsidian/manifest.json
+ create mode 100644 .obsidian/plugins/templater-obsidian/styles.css
+ create mode 100644 .obsidian/switcher.json
+ create mode 100644 .obsidian/themes/Things/manifest.json
+ create mode 100644 .obsidian/themes/Things/theme.css
+ create mode 100644 .obsidian/webviewer.json
+ create mode 100644 00_OBSI-CORE/.space/context.mdb
+ create mode 100644 00_OBSI-CORE/CANVA GLOBAL.canvas
+ create mode 100644 00_OBSI-CORE/First Base - CoreView.base
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/Article.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/Id\303\251e.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/_DailyNoteTemplate.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/_DailyNoteTemplate2.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-canvas-multiview-demo/Canvas/dashboard.canvas"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-canvas-multiview-demo/Canvas/\360\237\222\273 DevPerso.canvas"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-canvas-multiview-demo/Canvas/\360\237\223\246 Archives.canvas"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-canvas-multiview-demo/Canvas/\360\237\227\202\357\270\217 FDD.canvas"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-canvas-multiview-demo/README.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban-v2/00_LISEZ-MOI.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban-v2/Projets/retrospective-globale.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban-v2/Templates/dashboard-template.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban-v2/Templates/kanban-template.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban-v2/Templates/project-setup.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban-v2/Templates/retrospective-template.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban/00_LISEZ-MOI.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban/Projets/projets-kanban.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban/Projets/retrospective.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban/Projets/sprint-2025-06-01.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban/Templates/sprint-template.md"
+ create mode 100644 "00_OBSI-CORE/Mod\303\250les/obsidian-scrum-kanban/dashboard.md"
+ create mode 100644 00_OBSI-CORE/SCRIPTS/Z_MoveAndFormatClip.md
+ create mode 100644 00_OBSI-CORE/SCRIPTS/report-tasks.md
+ create mode 100644 00_OBSI-CORE/VARIABLES/API Key's.md
+ create mode 100644 "00_OBSI-CORE/VARIABLES/Notes pas compl\303\251t\303\251es..md"
+ create mode 100644 00_OBSI-CORE/VARIABLES/REPOS GITHUB.md
+ create mode 100644 00_OBSI-CORE/__MARKDOWN CHEATSHEET.md
+ create mode 100644 00_OBSI-CORE/x_A trier/API Key's.md
+ create mode 100644 00_OBSI-CORE/x_A trier/Commandes Obsidian.md
+ create mode 100644 00_OBSI-CORE/x_A trier/Home page.md
+ create mode 100644 00_OBSI-CORE/x_A trier/ListePlugins.md
+ create mode 100644 "00_OBSI-CORE/x_A trier/Note de test pour v\303\251rif NON suppression.md"
+ create mode 100644 00_OBSI-CORE/x_A trier/Projets scripts.md
+ create mode 100644 00_OBSI-CORE/x_A trier/T_ActivatedPlugins.md
+ create mode 100644 00_OBSI-CORE/x_A trier/T_ListePlugins.md
+ create mode 100644 00_OBSI-CORE/x_A trier/Templater's Scripts 1.md
+ create mode 100644 00_OBSI-CORE/x_A trier/Templater's Scripts.md
+ create mode 100644 "00_OBSI-CORE/x_A trier/_mod\303\250le_Note Quotidienne 1.md"
+ create mode 100644 "00_OBSI-CORE/x_A trier/_mod\303\250le_Note Quotidienne backup.md"
+ create mode 100644 00_OBSI-CORE/x_A trier/report-tasks.tpl
+ create mode 100644 00_OBSI-CORE/x_A trier/reportTasks.js.md
+ create mode 100644 010_Ressources/Images/Pasted image 20250926125304.png
+ create mode 100644 010_Ressources/Images/Pasted image 20250926143901.png
+ create mode 100644 010_Ressources/Images/Pasted image 20250926144020.png
+ create mode 100644 010_Ressources/Images/Pasted image 20250926144116.png
+ create mode 100644 010_Ressources/Images/Pasted image 20251012150043.png
+ create mode 100644 010_Ressources/Images/Pasted image 20251012150220.png
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.15.sa.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.17.lu.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.19.me.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.20.je.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.21.ve.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.25.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.26.me.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.27.je.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.28.ve.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.29.sa.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.03.30.di.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.04.22.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.04.24.je.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.05.05.lu.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.05.09.ve.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.05.13.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.05.19.lu.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.05.20.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.05.24.sa.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.02.lu.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.02.lun..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.03.mar..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.06.ve.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.06.ven..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.08.di.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.08.dim..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.09.lu.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.09.lun..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.10.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.10.mar..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.12.je.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.12.jeu..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.14.sa.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.14.sam..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.15.di.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.17.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.18.me.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.18.mer..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.19.je.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.24.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.06.24.mar..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.17.jeu..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.20.dim..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.22.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.22.mar..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.23.me.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.23.mer..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.25.ve.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.25.ven..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.27.di.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.27.dim..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.29.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.29.mar..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.30.me.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.30.mer..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.31.je.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.07.31.jeu..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.01.ven..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.02.sam..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.03.dim..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.04.lu.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.04.lun..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.05.mar..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.06.mer..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.08.ve.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.08.ven..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.09.sa.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.09.sam..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.10.dim..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.11.lu.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.11.lun..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.12.mar..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.13.me.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.13.mer..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.14.je.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.14.jeu..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.15.ve.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.15.ven..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.16.sam..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.18.lu.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.18.lun..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.19.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.19.mar..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.20.me.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.20.mer..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.21.je.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.21.jeu..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.22.ve.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.22.ven..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.23.sam..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.24.di.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.24.dim..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.08.25.lun..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.09.04.je.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.09.04.jeu..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.09.05.ve.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.09.05.ven..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.09.06.sam..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.09.07.dim..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.09.08.lun..md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.09.16.ma.md
+ create mode 100644 01_Periodic Notes/01.1_Daily/25.09.16.mar..md
+ create mode 100644 01_Periodic Notes/01.3_Monthly/2025-01.md
+ create mode 100644 01_Periodic Notes/01.3_Monthly/25.03.24.lu.md
+ create mode 100644 "01_Periodic Notes/01.3_Monthly/F\303\251vrier 2025/25.02.03.lun..md"
+ create mode 100644 01_Periodic Notes/01.3_Monthly/Janvier 2025/25.01.24.ven..md
+ create mode 100644 01_Periodic Notes/01.3_Monthly/Janvier 2025/25.01.26.dim..md
+ create mode 100644 01_Periodic Notes/01.3_Monthly/Janvier 2025/25.01.29.mer..md
+ create mode 100644 01_Periodic Notes/01.3_Monthly/Janvier 2025/25.01.30.jeu..md
+ create mode 100644 01_Periodic Notes/01.3_Monthly/Janvier 2025/25.02.01.sam..md
+ create mode 100644 01_Periodic Notes/01.3_Monthly/Janvier 2025/_Vendredi 24-01-25.md
+ create mode 100644 01_Periodic Notes/01.3_Monthly/Todo Janvier 2025.md
+ create mode 100644 01_Periodic Notes/TODO.md
+ create mode 100644 01_Periodic Notes/Youtube summary.md.edtz
+ create mode 100644 "02_PERSO/06_DIvers & Culture/Chanteuses F\303\251ministes/FeFe.md"
+ create mode 100644 "02_PERSO/06_DIvers & Culture/Inbox_Cin\303\251ma.md"
+ create mode 100644 02_PERSO/06_DIvers & Culture/Inbox_FDD.md
+ create mode 100644 02_PERSO/06_DIvers & Culture/Inbox_ICT.md
+ create mode 100644 02_PERSO/06_DIvers & Culture/Musique.md
+ create mode 100644 "02_PERSO/06_DIvers & Culture/RABBIN DES BOIS \342\200\223 COMMENT S\303\211CURISER SES R\303\211SEAUX SOCIAUX 1.md"
+ create mode 100644 02_PERSO/ACHATS/Clavier.md
+ create mode 100644 02_PERSO/JARVIS/Ressources brutes/Ressources brutes.md
+ create mode 100644 02_PERSO/MyMinfin.md
+ create mode 100644 "02_PERSO/_01_D\303\251veloppement PERSO/.md"
+ create mode 100644 "02_PERSO/_01_D\303\251veloppement PERSO/Ao\303\273t 2025.md"
+ create mode 100644 "02_PERSO/_01_D\303\251veloppement PERSO/Gestion du temps.md"
+ create mode 100644 "02_PERSO/_01_D\303\251veloppement PERSO/PERSO-PSY-PERSO.md"
+ create mode 100644 "02_PERSO/_01_D\303\251veloppement PERSO/Raccourcis \303\240 mettre dans Espanso pour codage.md"
+ create mode 100644 "02_PERSO/_01_D\303\251veloppement PERSO/R\303\251flexions Perso.md"
+ create mode 100644 02_PERSO/_02_ICT Global/Bluetooth.md
+ create mode 100644 02_PERSO/_02_ICT Global/CI-CD/Principes.md
+ create mode 100644 "02_PERSO/_02_ICT Global/Carouan - Repositories \302\267 GitHub.md"
+ create mode 100644 "02_PERSO/_02_ICT Global/Comp\303\251tences, l\303\251gitimit\303\251 et strat\303\251gie b\303\252ta GLO.md"
+ create mode 100644 02_PERSO/_02_ICT Global/EXCEL.md
+ create mode 100644 02_PERSO/_02_ICT Global/ICT_TODO.md
+ create mode 100644 "02_PERSO/_02_ICT Global/Id\303\251es discussions de fond avec IA.md"
+ create mode 100644 02_PERSO/_02_ICT Global/LISTE DOSSIERS-PROJETS chatGPT/Liste des projets dans chatGPT.md
+ create mode 100644 02_PERSO/_02_ICT Global/Laptop Miriam.md
+ create mode 100644 "02_PERSO/_02_ICT Global/M\303\251moire chatGPT - 25juil25.md"
+ create mode 100644 02_PERSO/_02_ICT Global/PROD-TEST & PR.md
+ create mode 100644 "02_PERSO/_02_ICT Global/Plugins \303\240 explorer.md"
+ create mode 100644 02_PERSO/_02_ICT Global/Sans titre.md
+ create mode 100644 02_PERSO/_02_ICT Global/XMBC vs AutoHotkey (AHK).md
+ create mode 100644 02_PERSO/_02_ICT Global/_00_Ressources/ADMIN_LINUX.md
+ create mode 100644 02_PERSO/_02_ICT Global/_00_Ressources/API STUFF.md
+ create mode 100644 02_PERSO/_02_ICT Global/_00_Ressources/GLOSSAIRE.md
+ create mode 100644 02_PERSO/_02_ICT Global/_00_Ressources/Google Chrome.md
+ create mode 100644 "02_PERSO/_02_ICT Global/_00_Ressources/PYTHON - Pistes \303\240 explorer.md"
+ create mode 100644 02_PERSO/_02_ICT Global/_00_Ressources/SERVICES.md
+ create mode 100644 02_PERSO/_02_ICT Global/_00_Ressources/Tableau.html
+ create mode 100644 02_PERSO/_02_ICT Global/_00_Ressources/UNIX-Linux Commands.md
+ create mode 100644 02_PERSO/_02_ICT Global/_00_Ressources/admin_linux_cheatsheet.md
+ create mode 100644 02_PERSO/_02_ICT Global/_00_Ressources/logo_gitea.jpg
+ create mode 100644 02_PERSO/_02_ICT Global/_01_NEXT-JOB-MSP/Estim_ress_MSP_GOM.csv
+ create mode 100644 02_PERSO/_02_ICT Global/_01_NEXT-JOB-MSP/MSP - NEXT-JOB.md
+ create mode 100644 02_PERSO/_02_ICT Global/_02_PROJETS/Construction d'un projet Python.md
+ create mode 100644 "02_PERSO/_02_ICT Global/_02_PROJETS/Domotique/Ressources brutes \303\240 trier.md"
+ create mode 100644 "02_PERSO/_02_ICT Global/_02_PROJETS/GitHub - Gestion comptes et d\303\251p\303\264ts.md"
+ create mode 100644 02_PERSO/_02_ICT Global/_02_PROJETS/Roadmap_covoiturage.md
+ create mode 100644 02_PERSO/_02_ICT Global/_02_PROJETS/SUMP/Ressources - SUMP.md
+ create mode 100644 02_PERSO/_02_ICT Global/_02_PROJETS/[Carouans Scripts] deploy via repo.md
+ create mode 100644 "02_PERSO/_02_ICT Global/_02_PROJETS/[Projet] Catalogue livres automatis\303\251.md"
+ create mode 100644 02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/CONNECT - GMAIL & TELEGRAM.md
+ create mode 100644 "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Instructions personnalis\303\251es.md"
+ create mode 100644 "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Lier domaine carouan.be \303\240 OpenAI.md"
+ create mode 100644 "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/M\303\251moire chatGPT brut.md"
+ create mode 100644 "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/M\303\251moire retravaill\303\251e..md"
+ create mode 100644 "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Nouvelle m\303\251moire.md"
+ create mode 100644 02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Prompts utiles.md
+ create mode 100644 02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Sans titre.md
+ create mode 100644 02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/chatGPT Desktop.md
+ create mode 100644 02_PERSO/_02_ICT Global/_03_I.A. global/JARVIS/Ressources brutes.md
+ create mode 100644 02_PERSO/_02_ICT Global/_03_I.A. global/JARVIS/Ressources brutes/Ressources brutes.md
+ create mode 100644 02_PERSO/_02_ICT Global/_03_I.A. global/OpenAI.md
+ create mode 100644 02_PERSO/_02_ICT Global/_03_I.A. global/README.md
+ create mode 100644 02_PERSO/_02_ICT Global/_03_I.A. global/Ressources.AI.Divers.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/2_param_power_user.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/3_problemes_ssh.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/CONFIGURATION.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/DEFINITIF/Analyse de chatGPT.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/DEFINITIF/README_CoalFFJ_RPi_Windows.md
+ create mode 100644 "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/DEFINITIF/\360\237\244\226 D\303\251ploiement professionnel GLO d\342\200\231un Bot Discord sur Raspberry Pi.md"
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/1_bot_discord_rpi.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/Bot - Coalition FFJ.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/Fusion FINAL des README ARCHITECTURES & DEVOPS.zip
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/GUIDE RPI - bot_discord - devops.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/README.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/README_GENERATED.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/RPI - DiscordBot - Guide & README - FINAL.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/TROUBLESHOOTING.md
+ create mode 100644 "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/Table des mati\303\250res.md"
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/__guide_bot_discord_rpi.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/docker_discord_bot (1).md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/docker_discord_bot.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/guide_bot_discord_rpi (1).md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/guide_bot_discord_rpi.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/guide_bot_discord_rpi_version definitive.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/readme_deploiement_bot_discord_glo_sur_raspberry_pi (2).md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/readme_deploiement_bot_discord_glo_sur_raspberry_pi (92).md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/readme_deploiement_bot_discord_glo_sur_raspberry_pi_partiel.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/roadmap.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/roadmap_.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/vpn_priv_admin_public_access (1).md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/vpn_priv_admin_public_access (2).md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/vpn_priv_admin_public_access.md
+ create mode 100644 02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/vpn_priv_admin_public_access_.md
+ create mode 100644 "02_PERSO/_02_ICT Global/_05_ ! Probl\303\250mes !/Piste red\303\251marage.md"
+ create mode 100644 02_PERSO/_02_ICT Global/_06_OBSIDIAN/Conseils utilisation Obsidian.md
+ create mode 100644 02_PERSO/_02_ICT Global/_06_OBSIDIAN/OBSI_Plugins.md
+ create mode 100644 02_PERSO/_02_ICT Global/_06_OBSIDIAN/WebClipper.md
+ create mode 100644 02_PERSO/_02_ICT Global/_06_OBSIDIAN/__OBSIDIAN.md
+ create mode 100644 02_PERSO/_02_ICT Global/_07_PYTHON/DOCUMENTATION.md
+ create mode 100644 02_PERSO/_02_ICT Global/_08_A trier/CURRENT USSEFULL LINKS.md
+ create mode 100644 "02_PERSO/_02_ICT Global/_08_A trier/Donn\303\251es \303\240 classer.md"
+ create mode 100644 "02_PERSO/_02_ICT Global/_08_A trier/Script arborescence, profil lent et red\303\251marrage..md"
+ create mode 100644 02_PERSO/_02_ICT Global/_08_A trier/_- Dev paths to explorer For FDD & Me -_.md
+ create mode 100644 02_PERSO/_02_ICT Global/_09_Sandbox/Obsidian-try/Test de code.md
+ create mode 100644 02_PERSO/_02_ICT Global/_09_Sandbox/Obsidian-try/Test python.md
+ create mode 100644 02_PERSO/_02_ICT Global/_09_Sandbox/Obsidian-try/Trello Test.md
+ create mode 100644 02_PERSO/_02_ICT Global/_09_Sandbox/Obsidian-try/Youtube summary.md
+ create mode 100644 02_PERSO/_02_ICT Global/_09_Sandbox/Obsidian-try/test.py
+ create mode 100644 02_PERSO/_02_ICT Global/_09_Sandbox/projets-kanban.md.md
+ create mode 100644 02_PERSO/_02_ICT Global/_09_Sandbox/test sync.md
+ create mode 100644 "02_PERSO/_02_ICT Global/plugins \303\240 explorer_2.md"
+ create mode 100644 "02_PERSO/_03_Famille/03.1_F-Sant\303\251/Adresses Soignant.e.s.md"
+ create mode 100644 "02_PERSO/_03_Famille/03.1_F-Sant\303\251/Dr Br\303\251dart.md"
+ create mode 100644 "02_PERSO/_03_Famille/03.1_F-Sant\303\251/Dr Br\303\251dart.md.edtz"
+ create mode 100644 "02_PERSO/_03_Famille/03.1_F-Sant\303\251/Dr Leroy.md"
+ create mode 100644 "02_PERSO/_03_Famille/03.1_F-Sant\303\251/Dr Leroy.md.edtz"
+ create mode 100644 "02_PERSO/_03_Famille/03.1_F-Sant\303\251/__KEEP IN MIND.md"
+ create mode 100644 02_PERSO/_03_Famille/03.2_Evenements/Anniversaire Violette.md
+ create mode 100644 02_PERSO/_03_Famille/03.2_Evenements/Sans titre.md
+ create mode 100644 02_PERSO/_03_Famille/Adresses famille.md
+ create mode 100644 02_PERSO/_03_Famille/Hommage Tallulah.md
+ create mode 100644 02_PERSO/_03_Famille/Mites alimentaires.md
+ create mode 100644 02_PERSO/_03_Famille/_URGENT.md
+ create mode 100644 "02_PERSO/_04_Monde du libre - GOM Futur/Alternatives modernes et robustes \303\240 ExcelVBA.md"
+ create mode 100644 "02_PERSO/_04_Monde du libre - GOM Futur/Pages-Bookmarks \303\240 creuser.md"
+ create mode 100644 02_PERSO/_04_Monde du libre - GOM Futur/Publications libres.md
+ create mode 100644 03_FAMILLE/FILLES/CONTACTS.md
+ create mode 100644 03_FAMILLE/FILLES/ECOLES/EOLE/Eole dans 5 ans.md
+ create mode 100644 03_FAMILLE/FILLES/ECOLES/EOLE/Ephemerides 24-25.md
+ create mode 100644 "03_FAMILLE/FILLES/ECOLES/ERPENT/Rdv Marjolaine \303\251cole Erpent.md"
+ create mode 100644 03_FAMILLE/FILLES/SANTE/Compte-rendu Psy Violette..md
+ create mode 100644 03_FAMILLE/FILLES/SANTE/Filles - Tailles & Poids.md
+ create mode 100644 03_FAMILLE/FILLES/SANTE/Rdv Dr Leroy.md
+ create mode 100644 03_FAMILLE/FILLES/SANTE/Rdv Leroy - Perso.md
+ create mode 100644 04_FDD/Comprendre LGBTQIA+.md
+ create mode 100644 04_FDD/FDD - Plugin InPost Mondial Relay.md
+ create mode 100644 04_FDD/Femmes de droit.md
+ create mode 100644 04_FDD/Licences libres.md
+ create mode 100644 04_FDD/_01_Ressources basique/_01_Codes couleurs.md
+ create mode 100644 "04_FDD/_02_Comptabilit\303\251/CBEg (Csv_Banking_Engine) - Excel Complement.md"
+ create mode 100644 "04_FDD/_02_Comptabilit\303\251/DOCUMENTATION_TECHNIQUE.md"
+ create mode 100644 "04_FDD/_02_Comptabilit\303\251/Gestion Caisse FDD dans Excel.md"
+ create mode 100644 "04_FDD/_02_Comptabilit\303\251/Logiciels comptable.md"
+ create mode 100644 "04_FDD/_02_Comptabilit\303\251/PLAN_DE_REFACTORISATION.md"
+ create mode 100644 "04_FDD/_02_Comptabilit\303\251/README_V2.md"
+ create mode 100644 "04_FDD/_02_Comptabilit\303\251/Roadmap du Projet SaaS pour la Gestion de Comptabilit\303\251 d'Associations.md"
+ create mode 100644 "04_FDD/_02_Comptabilit\303\251/Services ICT payants et \303\251ch\303\251ances.md"
+ create mode 100644 "04_FDD/_02_Comptabilit\303\251/csvTOxlsx.md"
+ create mode 100644 "04_FDD/_02_Comptabilit\303\251/readme_project_vba.md"
+ create mode 100644 04_FDD/_02_FDD TODO.md
+ create mode 100644 "04_FDD/_03_Acad\303\251mie/01_Plan Freemium & Conversion \342\200\223 Acad\303\251mie de FDD.md"
+ create mode 100644 "04_FDD/_03_Acad\303\251mie/02_R\303\251sum\303\251_analytique_JDG_microtransactions.md"
+ create mode 100644 "04_FDD/_03_Acad\303\251mie/03_Plan_croise_BenjaminCode_x_JDG_pour_Academie_FDD_CLEAN.md"
+ create mode 100644 04_FDD/_04_ PROJETS/Bot discord Coalition FFJ/Arborescence des salons.md
+ create mode 100644 04_FDD/_04_ PROJETS/Bot discord Coalition FFJ/Bot - Coalition FFJ.md
+ create mode 100644 04_FDD/_04_ PROJETS/Bot discord Coalition FFJ/Dimanche 10 aout - Last.md
+ create mode 100644 04_FDD/_04_ PROJETS/Bot discord Coalition FFJ/RPI - DiscordBot - Guide & README - FINAL.md
+ create mode 100644 04_FDD/_04_ PROJETS/Bot discord Coalition FFJ/bot_coalffj.py
+ create mode 100644 04_FDD/_04_ PROJETS/Gestion emails.md
+ create mode 100644 04_FDD/_08_Divers/Liste achats potentiel.md
+ create mode 100644 04_FDD/_08_Divers/Quiz Colruyt Group Academy.md
+ create mode 100644 "04_FDD/_Id\303\251es \303\240 d\303\251velopper.md"
+ create mode 100644 05_Zettel_VAULT_2.0/01_introduction_et_objectif.md
+ create mode 100644 05_Zettel_VAULT_2.0/02_split_json.md
+ create mode 100644 05_Zettel_VAULT_2.0/03_clean_conversations.md
+ create mode 100644 05_Zettel_VAULT_2.0/04_filtrage_par_titres.md
+ create mode 100644 "05_Zettel_VAULT_2.0/05_probl\303\250mes_et_d\303\251rives.md"
+ create mode 100644 05_Zettel_VAULT_2.0/06_scripts_a_corriger.md
+ create mode 100644 05_Zettel_VAULT_2.0/1_bruts/Fiches extraites de la conversation du 27 juin 2025.md
+ create mode 100644 05_Zettel_VAULT_2.0/LLM_prompt.md
+ create mode 100644 05_Zettel_VAULT_2.0/README_ZettelVault.md
+ create mode 100644 05_Zettel_VAULT_2.0/Sans titre.md
+ create mode 100644 05_Zettel_VAULT_2.0/archives/clean_conversations.py
+ create mode 100644 05_Zettel_VAULT_2.0/archives/filtered_cleaned_by_titlte.py
+ create mode 100644 05_Zettel_VAULT_2.0/archives/generate_important_from_titles.py
+ create mode 100644 05_Zettel_VAULT_2.0/archives/refined_split_and_clean.py
+ create mode 100644 05_Zettel_VAULT_2.0/archives/split_and_clean.py
+ create mode 100644 05_Zettel_VAULT_2.0/archives/split_and_clean_v2.py
+ create mode 100644 05_Zettel_VAULT_2.0/archives/split_and_clean_v3.py
+ create mode 100644 05_Zettel_VAULT_2.0/archives/split_and_clean_v4.py
+ create mode 100644 05_Zettel_VAULT_2.0/archives/split_json.py
+ create mode 100644 05_Zettel_VAULT_2.0/chat.html
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_clean_part100.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part1.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part10.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part11.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part12.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part13.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part14.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part15.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part16.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part17.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part18.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part19.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part2.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part20.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part21.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part22.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part23.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part24.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part25.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part26.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part27.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part28.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part29.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part3.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part30.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part31.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part4.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part5.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part6.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part7.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part8.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/conversations_part9.json
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part1.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part10.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part100.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part100_OK.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part11.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part12.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part13.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part14.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part15.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part16.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part17.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part18.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part19.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part1_OK.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part2.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part20.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part21.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part22.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part23.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part24.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part25.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part26.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part27.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part28.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part29.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part3.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part30.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part31.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part4.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part5.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part6.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part7.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part8.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts/titres_part9.txt
+ create mode 100644 05_Zettel_VAULT_2.0/cleaned_parts_step2/conversations_clean_part100.json
+ create mode 100644 05_Zettel_VAULT_2.0/conversations.json
+ create mode 100644 05_Zettel_VAULT_2.0/step1_split.py
+ create mode 100644 05_Zettel_VAULT_2.0/step2_clean.py
+ create mode 100644 05_Zettel_VAULT_2.0/step3_filter_by_titles.py
+ create mode 100644 05_Zettel_VAULT_2.0/user.json
+ create mode 100644 "05_Zettel_VAULT_2.0/\360\237\223\232 README& Configuration - ZettelVault.md"
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/COMMIT_EDITMSG
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/FETCH_HEAD
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/HEAD
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/config
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/description
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/applypatch-msg.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/commit-msg.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/fsmonitor-watchman.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/post-update.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-applypatch.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-commit.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-merge-commit.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-push.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-rebase.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/pre-receive.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/prepare-commit-msg.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/push-to-checkout.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/sendemail-validate.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/hooks/update.sample
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/index
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/info/exclude
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/logs/HEAD
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/logs/refs/heads/.invalid
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/objects/4b/825dc642cb6eb9a060e54bf8d69288fbee4904
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/objects/7b/94d23d75be11feeccc728cefc63d050677df0a
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/objects/9a/6271a96ae7db42ae8f4c411807b212f53d6075
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/objects/ac/b0bf3a981f2e67fd4ce62ecc992d6b0c451c89
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/objects/fd/74d5899e85df44c97714544a16614095c01ad5
+ create mode 100644 07_PUBLISH TO GITHUB/PPV_S56/_git_BACKUP_20251024111115/refs/heads/.invalid
+ create mode 160000 "07_PUBLISH TO GITHUB/Publi\303\251"
+ create mode 100644 08_Emails & Data/mood-tracker-data.json
+ create mode 100644 09_ -----  INBOX    -------/Bienvenue.md
+ create mode 100644 "09_ -----  INBOX    -------/Clippings/Andrew Carnegie \342\200\224 Wikip\303\251dia.md"
+ create mode 100644 09_ -----  INBOX    -------/Clippings/Plugin.md
+ create mode 100644 09_ -----  INBOX    -------/Clippings/Projects  OpenJS Foundation.md
+ create mode 100644 "09_ -----  INBOX    -------/Clippings/exemplaire le secret toujours pas r\303\251cup\303\251r\303\251 - Ulule.md"
+ create mode 100644 "09_ -----  INBOX    -------/Curiosit\303\251s.md"
+ create mode 100644 09_ -----  INBOX    -------/Excalidraw/Drawing 2025-06-03 12.54.42.excalidraw.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/16_09_24 - Assembl\303\251e g\303\251n\303\251rale des parents Eole.md"
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-08-28T09_24_59.074+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-09-08T20_57_06.329+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-09-10T09_57_19.076+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-09-16T16_37_54.690+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-09-26T09_13_12.674+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-09-26T09_45_53.486+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-09-28T17_04_19.908+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-10-04T16_14_28.847+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-10-07T16_08_45.006+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-10-07T16_09_50.646+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-10-17T20_03_25.816+02_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-10-27T18_49_59.868+01_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-11-16T18_51_44.103+01_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-12-01T14_47_34.402+01_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-12-08T19_30_31.794+01_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-12-25T16_06_22.907+01_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/2024-12-30T16_00_40.139+01_00.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/A faire en famille_le week-end.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/AP Eole.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Accueil Eole - 26_08.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Acc\303\250s Nextcloud FDD.md"
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Administratif perso.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Apr\303\250m bricolage dimanche 27_10_24.md"
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/1705317703856.365278130.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/1708449102676.2129537117.png
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/1708449131176.1635715628.png
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/1708449168414.776412540.png
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/1708449198153.2108879944.png
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/1708449367292.726393592.png
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/1708449472811.422362158.png
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/1708449569489.1853917527.png
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/18d3757697d.91cde0464e5040e8.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/18d3775c9fd.a4ad66d15e5599eb.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/18d3775ca24.825aac5a876e5887.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/18d3775ca39.9e30a475230e12bb.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/18d3775ca58.ae6c382c4b8ceb69.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/18d5bcded10.ac483519ab175a71.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/18d5bd86a01.b2f79cb2e40d6176.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/18fc9690da7.b714711112c6b5f2.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/18fc9693a62.aa794cc9fbf46476.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/18fc98088b5.aa882c12ca9bd2fb.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/191fc220932.a7ab98bad5d71cfe.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/192674fcb0e.a07829730a3bddd7.jpg
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Assets/32533232-11c7-46fd-b7fe-3ea33d9cf703.png
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Auto-Psy.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Compte-rendu Psy Violette_.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Courses.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/FUSION.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Formation secr\303\251taire-comptable_.md"
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/From trashs to diamonds.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Historique judiciaire.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Id\303\251es \303\240 dev.md"
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Laptop Miriam.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Matin\303\251e de formation Ecolo 7_9_24 - Espace KEGELJA.md"
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Mdp Gmail.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Nutrioniste 27_08.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Outils AI.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Pr\303\251sentation pour chatGPT.md"
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Rdv Dr Leroy.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Rdv Marjolaine \303\251cole_.md"
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Rdv vendredi 17h_.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Repas No\303\253l (8 pers).md"
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Repas.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Rituel dodo \360\237\225\227.md"
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/R\303\251flexions livre_.md"
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/R\303\251union organisation 03_10_2024.md"
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/R\303\251union pr\303\251sentation secondaire Erpent.md"
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Services \303\240 connecter ou r\303\251actualiser.md"
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/Taille et poids pour V\303\251los_.md"
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/To do(1).md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/To do.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Todo Today.md
+ create mode 100644 09_ -----  INBOX    -------/Google Keep/Uchigatana.md
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/\303\211cole Eole.md"
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/\360\237\216\222\360\237\216\275\360\237\251\263\360\237\221\237 Sac de gym.md"
+ create mode 100644 "09_ -----  INBOX    -------/Google Keep/\360\237\222\212 M\303\251dicament Matin.md"
+ create mode 100644 09_ -----  INBOX    -------/Home page.md.edtz
+ create mode 100644 09_ -----  INBOX    -------/Tags/#keep/.space/context.mdb
+ create mode 100644 09_ -----  INBOX    -------/Tasks Plugin - Review and check your Statuses 2025-04-18 10-52-37.md
+ create mode 100644 09_ -----  INBOX    -------/URL A TRIER.md
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250218223332.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250324094317.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250324094347.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250324094419.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250324094436.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250324103741.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250324103743.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250327153545.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250328121933.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250328122021.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250328123050.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250328123516.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250328123641.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250401135600.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250401135903.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250404103110.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250408101331.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250408101752.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250603104403.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250606205011.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250607092816.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250612104122.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250612104217.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250612105345.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250726144122.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250726144154.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250731110258.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250731120130.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250803155619.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250808143413.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250811163632.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250814121717.png
+ create mode 100644 09_ -----  INBOX    -------/attachments/Pasted image 20250814155827.png
+ create mode 100644 09_ -----  INBOX    -------/cards/banyan_editor_placeholder.md
+ create mode 100644 09_ -----  INBOX    -------/{
+ create mode 100644 A trier.md
+ create mode 100644 Guide_unifie_synchronisation_workflow_FIXED.md
+ create mode 100644 "Guide_unifie_synchronisation_workflow_pc_\342\207\204_android_\342\207\204_drive_\342\207\204_git_hub.md"
+ create mode 100644 Sans titre.md
+ create mode 100644 _1_Obsidian_Git_Sync_Publication_clean.md
+ create mode 100644 _2_Synchronisation_globale_guide.md
+ create mode 100644 _2bis_Synchronisation_globale_fichiers_dossiers.md
+ create mode 100644 _3_Workflow_global_PC-Android-Drive-GitHub.md
+ create mode 100644 _92_Synchronisation et backup.md
+ create mode 100644 arborescence_23.10.25_155954.txt
+ create mode 100644 arborescence_23.10.25_221357.txt
+ create mode 100644 setup_all.ps1
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> git branch -M main
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> git remote remove origin 2>$null
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> git remote add origin git@github.com:Carouan/PPV_S56.git
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26> git push -u origin main
+To github.com:Carouan/PPV_S56.git
+ ! [rejected]        main -> main (fetch first)
+error: failed to push some refs to 'github.com:Carouan/PPV_S56.git'
+hint: Updates were rejected because the remote contains work that you do not
+hint: have locally. This is usually caused by another repository pushing to
+hint: the same ref. If you want to integrate the remote changes, use
+hint: 'git pull' before pushing again.
+hint: See the 'Note about fast-forwards' in 'git push --help' for details.
+PS G:\Mon Drive\_02_ICT\_010_ICT_PERSO_on_GDrive\_01_Obsidian Vaults\__VAULTS_DEFINITIF\SEB_25-26>
