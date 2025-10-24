@@ -1,10 +1,3 @@
-{
-  "id": "discord-message-sender",
-  "name": "Discord Message Sender",
-  "version": "0.2.8",
-  "minAppVersion": "1.8.10",
-  "description": "Send messages from a Discord channel to your Vault",
-  "author": "okawak",
-  "authorUrl": "https://github.com/okawak",
-  "isDesktopOnly": true
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:b015ef3371752abfbb518dd5b26980f4c762665703a8a59e68b6548e34450851
+size 296

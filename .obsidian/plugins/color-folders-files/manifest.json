@@ -1,11 +1,3 @@
-{
-	"id": "color-folders-files",
-	"name": "Color Folders and Files",
-	"version": "1.4.1",
-	"minAppVersion": "1.4.1",
-	"description": "Customize the appearance of folders and files in the file explorer.",
-	"author": "Mithadon",
-    "authorUrl": "https://github.com/Mithadon",
-    "fundingUrl": "https://ko-fi.com/mithadon",
-	"isDesktopOnly": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:6d83a3dfdd288ef3f1362b4ab412af7108bc92ce559005a957425f8021400ea5
+size 359

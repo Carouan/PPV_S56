@@ -1,33 +1,3 @@
-{
-  "file-explorer": true,
-  "global-search": true,
-  "switcher": true,
-  "graph": true,
-  "backlink": true,
-  "canvas": true,
-  "outgoing-link": true,
-  "tag-pane": true,
-  "footnotes": true,
-  "properties": true,
-  "page-preview": true,
-  "daily-notes": true,
-  "templates": true,
-  "note-composer": true,
-  "command-palette": true,
-  "slash-command": true,
-  "editor-status": true,
-  "bookmarks": true,
-  "markdown-importer": true,
-  "zk-prefixer": true,
-  "random-note": false,
-  "outline": true,
-  "word-count": true,
-  "slides": true,
-  "audio-recorder": true,
-  "workspaces": true,
-  "file-recovery": true,
-  "publish": false,
-  "sync": false,
-  "bases": true,
-  "webviewer": true
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:788f1e3164c705dd914ee5663487f9577f10dec3a23e1888c77b8b92fea528b5
+size 689

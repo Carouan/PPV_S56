@@ -1,10 +1,3 @@
-{
-	"id": "colored-tags",
-	"name": "Colored Tags",
-	"version": "5.0.1",
-	"minAppVersion": "0.15.0",
-	"description": "Colorizes tags in different colors. Colors of nested tags are mixed with the root tag to improve readability. Text color contrast is automatically matched to comply with AA level of WCAG 2.1.",
-	"author": "Pavel Frankov",
-	"authorUrl": "https://github.com/pfrankov",
-	"isDesktopOnly": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:fbc44c3b6fa70ff363fc44ff8426f0d252a5e40b68028c52bfa6cb899fa9b2a8
+size 417

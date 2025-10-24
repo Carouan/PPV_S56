@@ -1,11 +1,3 @@
-{
-	"id": "markdown-blogger",
-	"name": "Markdown Blogger",
-	"version": "1.1.0",
-	"minAppVersion": "0.15.0",
-	"description": "Allows developers to push markdown notes to their local blog, portfolio, or static site. Works with Astro.js, Next.js, and any other framework configured to render markdown pages.",
-	"author": "Alexa Fazio",
-	"authorUrl": "https://github.com/afazio1",
-	"fundingUrl": "https://www.buymeacoffee.com/alexafazio",
-	"isDesktopOnly": true
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:651b78ebfb9d48314d6d5f8aa572b09a97b7230e02b3630457cb0e31d59627f2
+size 470

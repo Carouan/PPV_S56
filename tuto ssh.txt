@@ -1,0 +1,52 @@
+video blast 28min -> transcript
+
+
+GazTo52Kra52!
+
+
+
+PS C:\Users\Seb> ssh-keygen -t ed25519 -a 100 -C "ObsiSync (Carouan) $(hostname)" -f "$env:USERPROFILE\.ssh\gitObsiSync"
+
+Generating public/private ed25519 key pair.
+Enter passphrase (empty for no passphrase):
+Enter same passphrase again:
+Your identification has been saved in C:\Users\Seb\.ssh\gitObsiSync
+Your public key has been saved in C:\Users\Seb\.ssh\gitObsiSync.pub
+The key fingerprint is:
+SHA256:PmdQenk2QU4ntJg0ZNZcicmuuw5ax7T4IeaefVM3zgA ObsiSync (Carouan) Carouan-Home
+The key's randomart image is:
++--[ED25519 256]--+
+|         .*==+o. |
+|         + B*+.  |
+|          +.+    |
+|         o E..   |
+|        S +.=    |
+|       . *.+ o...|
+|        O B. .+..|
+|       = @..o  o |
+|      ..+.=o .   |
++----[SHA256]-----+
+
+PS C:\Users\Seb> ssh-add -D
+All identities removed.
+PS C:\Users\Seb> ssh-add "$env:USERPROFILE\.ssh\gitObsiSync"
+Enter passphrase for C:\Users\Seb\.ssh\gitObsiSync:
+Bad passphrase, try again for C:\Users\Seb\.ssh\gitObsiSync:
+Identity added: C:\Users\Seb\.ssh\gitObsiSync (ObsiSync (Carouan) Carouan-Home)
+PS C:\Users\Seb> ssh-add -l    # tu dois voir 1 identité ED25519 listée
+256 SHA256:PmdQenk2QU4ntJg0ZNZcicmuuw5ax7T4IeaefVM3zgA ObsiSync (Carouan) Carouan-Home (ED25519)
+
+PS C:\Users\Seb> Get-Content "$env:USERPROFILE\.ssh\gitObsiSync.pub" | Set-Clipboard
+PS C:\Users\Seb> ssh -T git@github.com
+Hi Carouan! You've successfully authenticated, but GitHub does not provide shell access.
+PS C:\Users\Seb> git remote set-url origin git@github.com:Carouan/PPV_S56.git
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Seb> git fetch origin
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Seb> git pull --rebase origin main
+fatal: not a git repository (or any of the parent directories): .git
+PS C:\Users\Seb> git push origin main
+fatal: not a git repository (or any of the parent directories): .git
+
+
+

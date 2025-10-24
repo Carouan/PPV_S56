@@ -1,12 +1,3 @@
-{
-	"id": "obsidian-mkdocs-publisher",
-	"name": "Enveloppe",
-	"version": "7.6.4",
-	"minAppVersion": "0.15.4",
-	"description": "Enveloppe helps you to publish your notes on a preconfigured GitHub repository, for free, and more!",
-	"author": "Mara-Li",
-	"authorUrl": "https://github.com/enveloppe",
-	"fundingUrl": "https://ko-fi.com/mara__li",
-	"isDesktopOnly": false,
-	"helpUrl": "https://enveloppe.github.io/"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:495c9e0124c7fd185c75e0d8f9b3d43ee6c386db5a4e1d94b46c21aba8c7774a
+size 423

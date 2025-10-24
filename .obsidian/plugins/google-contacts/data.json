@@ -1,17 +1,3 @@
-{
-  "clientId": "",
-  "clientSecret": "",
-  "accessToken": "",
-  "refreshToken": "",
-  "tokenExpiresAt": 0,
-  "contactsFolder": "Contacts",
-  "noteTemplate": "# Notes\n",
-  "fileNamePrefix": "",
-  "propertyNamePrefix": "",
-  "syncLabel": "",
-  "syncIntervalMinutes": 1440,
-  "syncOnStartup": true,
-  "trackSyncTime": false,
-  "organizationAsLink": false,
-  "lastSyncTime": "2025-10-24T14:31:07.978Z"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:ec87bf0ca8b3e32934bebc395355aca2b7da306ccc442190d218c42367703639
+size 401

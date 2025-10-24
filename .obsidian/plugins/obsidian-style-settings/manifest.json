@@ -1,10 +1,3 @@
-{
-	"id": "obsidian-style-settings",
-	"name": "Style Settings",
-	"version": "1.0.9",
-	"minAppVersion": "0.11.5",
-	"description": "Offers controls for adjusting theme, plugin, and snippet CSS variables.",
-	"author": "mgmeyers",
-	"authorUrl": "https://github.com/mgmeyers/obsidian-style-settings",
-	"isDesktopOnly": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:36deef35d316bb46af82b3a1b09744aacf81ae00e2bfcd131cf95796a8268800
+size 331

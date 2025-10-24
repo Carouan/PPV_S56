@@ -1,10 +1,3 @@
-{
-	"id": "easy-keep-view",
-	"name": "Easy Keep View",
-	"version": "1.0.1",
-	"minAppVersion": "1.8.9",
-	"description": "Easy Keep View mimics the Google Keep interface, allowing you to view and manage your notes with image thumbnails and excerpts.",
-	"author": "@tazihad",
-	"authorUrl": "https://github.com/tazihad",
-	"isDesktopOnly": false
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:3381fab1392dfbd8bef670711d667c7ccda4cbeed2c1bdad41b3ed397733c440
+size 352

@@ -1,9 +1,3 @@
-{
-  "things-style@@fancy-code": true,
-  "things-style@@fancy-highlight": true,
-  "things-style@@quote-color": "#3EB4BF",
-  "things-style@@code-normal": "#44A02E",
-  "simple-colored-folder@@spf-FolderRadius": 15,
-  "things-style@@code-color-d": "#44A02E",
-  "things-style@@strong-color": "#C06C6C"
-}
+version https://git-lfs.github.com/spec/v1
+oid sha256:35147f0088b95137935454c5452295fe642a909d189e6c93ad171189e5a41fb3
+size 306

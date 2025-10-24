@@ -1,15 +1,3 @@
-[
-  "easy-keep-view",
-  "google-contacts",
-  "colored-tags",
-  "colored-text",
-  "templater-obsidian",
-  "mermaid-tools",
-  "obsidian-style-settings",
-  "color-folders-files",
-  "simple-colored-folder",
-  "obsidian-custom-frames",
-  "obsidian-mind-map",
-  "obsidian-git",
-  "obsidian-mkdocs-publisher"
-]
+version https://git-lfs.github.com/spec/v1
+oid sha256:dff9bd2189b509a670c9f3f43720a2246d8fc3d51df47f665fafd371569c861e
+size 303
