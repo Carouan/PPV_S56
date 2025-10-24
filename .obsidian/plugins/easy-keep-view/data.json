@@ -2,6 +2,1873 @@
   "mySetting": "default",
   "notesDB": [
     {
+      "path": "04_FDD/_03_Académie/02_Résumé_analytique_JDG_microtransactions.md",
+      "title": "02_Résumé_analytique_JDG_microtransactions",
+      "excerpt": "# Résumé analytique — « PARLONS DES MICROTRANSACTIONS » (JDG) …",
+      "time": 1761308536022
+    },
+    {
+      "path": "04_FDD/_03_Académie/01_Plan Freemium & Conversion – Académie de FDD.md",
+      "title": "01_Plan Freemium & Conversion – Académie de FDD",
+      "excerpt": "# Plan Freemium & Conversion – Académie de **Femmes de droit** …",
+      "time": 1761308535933
+    },
+    {
+      "path": "04_FDD/_02_FDD TODO.md",
+      "title": "_02_FDD TODO",
+      "excerpt": "(c.f. les Tableaux Trello …",
+      "time": 1761308535868
+    },
+    {
+      "path": "04_FDD/_02_Comptabilité/readme_project_vba.md",
+      "title": "readme_project_vba",
+      "excerpt": "### Projet : Carouan_Excel_Complement_DEV_V2 …",
+      "time": 1761308535800
+    },
+    {
+      "path": "04_FDD/_02_Comptabilité/csvTOxlsx.md",
+      "title": "csvTOxlsx",
+      "excerpt": "https://chatgpt.com/g/g-p-675ffe114244819185f023203ae80227-femmes-de-droit/c/677e4298-d818-800c-9fba-4045ea070e7d",
+      "time": 1761308535744
+    },
+    {
+      "path": "04_FDD/_02_Comptabilité/Services ICT payants et échéances.md",
+      "title": "Services ICT payants et échéances",
+      "excerpt": "--- …",
+      "time": 1761308535444,
+      "imageLink": "Pasted image 20250612104122.png"
+    },
+    {
+      "path": "04_FDD/_02_Comptabilité/Roadmap du Projet SaaS pour la Gestion de Comptabilité d'Associations.md",
+      "title": "Roadmap du Projet SaaS pour la Gestion de Comptabilité d'Associations",
+      "excerpt": "## Version 0.1 - Interface Principale …",
+      "time": 1761308535357
+    },
+    {
+      "path": "04_FDD/_02_Comptabilité/README_V2.md",
+      "title": "README_V2",
+      "excerpt": "# Carouan_Excel_Complement_DEV_V2 …",
+      "time": 1761308535282
+    },
+    {
+      "path": "04_FDD/_02_Comptabilité/PLAN_DE_REFACTORISATION.md",
+      "title": "PLAN_DE_REFACTORISATION",
+      "excerpt": "# Plan de Refactorisation …",
+      "time": 1761308535217
+    },
+    {
+      "path": "04_FDD/_02_Comptabilité/Logiciels comptable.md",
+      "title": "Logiciels comptable",
+      "excerpt": "CODABOX …",
+      "time": 1761308535168
+    },
+    {
+      "path": "04_FDD/_02_Comptabilité/Gestion Caisse FDD dans Excel.md",
+      "title": "Gestion Caisse FDD dans Excel",
+      "excerpt": "#### Objectif initial …",
+      "time": 1761308535090
+    },
+    {
+      "path": "04_FDD/_02_Comptabilité/DOCUMENTATION_TECHNIQUE.md",
+      "title": "DOCUMENTATION_TECHNIQUE",
+      "excerpt": "# Documentation Technique …",
+      "time": 1761308535037
+    },
+    {
+      "path": "04_FDD/_02_Comptabilité/CBEg (Csv_Banking_Engine) - Excel Complement.md",
+      "title": "CBEg (Csv_Banking_Engine) - Excel Complement",
+      "excerpt": "# 🧾 CSV_Banking_Engine - Projet Excel VBA …",
+      "time": 1761308535018
+    },
+    {
+      "path": "04_FDD/_01_Ressources basique/_01_Codes couleurs.md",
+      "title": "_01_Codes couleurs",
+      "excerpt": "",
+      "time": 1761308535001
+    },
+    {
+      "path": "04_FDD/Licences libres.md",
+      "title": "Licences libres",
+      "excerpt": "https://coop-ist.cirad.fr/etre-auteur/utiliser-les-licences-creative-commons/4-les-6-licences-cc …",
+      "time": 1761308534919
+    },
+    {
+      "path": "04_FDD/Femmes de droit.md",
+      "title": "Femmes de droit",
+      "excerpt": "--- …",
+      "time": 1761308534885
+    },
+    {
+      "path": "04_FDD/FDD - Plugin InPost Mondial Relay.md",
+      "title": "FDD - Plugin InPost Mondial Relay",
+      "excerpt": "https://mondialrelay-wp.com/mon-compte/ …",
+      "time": 1761308534773,
+      "imageLink": "Pasted image 20251012150043.png"
+    },
+    {
+      "path": "04_FDD/Comprendre LGBTQIA+.md",
+      "title": "Comprendre LGBTQIA+",
+      "excerpt": "[![Wiki Fandom LGBTQIA+](https://static.wikia.nocookie.net/lgbtqia-fr/images/f/f7/Drapeau-arc-ciel-symbole-communaute-lgbt_113767-1934.jpg/revision/latest/scale-to-width-down/200?cb=20211113130657&path-prefix=fr)](https://lgbtqia.fandom.com/fr/wiki/Wiki_LGBTQIA_FR \"WIKI\") …",
+      "time": 1761308534471,
+      "imageLink": "Pasted image 20250401135903.png"
+    },
+    {
+      "path": "03_FAMILLE/FILLES/SANTE/Rdv Leroy - Perso.md",
+      "title": "Rdv Leroy - Perso",
+      "excerpt": "Xavier Von Oost - KINÉ - COACH TDAH - 0473/71.28.98 …",
+      "time": 1761308534336
+    },
+    {
+      "path": "03_FAMILLE/FILLES/SANTE/Rdv Dr Leroy.md",
+      "title": "Rdv Dr Leroy",
+      "excerpt": "# 30/05/24 …",
+      "time": 1761308534286,
+      "imageLink": "Pasted image 20250926143901.png"
+    },
+    {
+      "path": "03_FAMILLE/FILLES/SANTE/Filles - Tailles & Poids.md",
+      "title": "Filles - Tailles & Poids",
+      "excerpt": "# 10 juil. 2024 …",
+      "time": 1761308534149
+    },
+    {
+      "path": "03_FAMILLE/FILLES/SANTE/Compte-rendu Psy Violette..md",
+      "title": "Compte-rendu Psy Violette.",
+      "excerpt": "Mr Valentin - Planning Namur …",
+      "time": 1761308534134
+    },
+    {
+      "path": "03_FAMILLE/FILLES/ECOLES/ERPENT/Rdv Marjolaine école Erpent.md",
+      "title": "Rdv Marjolaine école Erpent",
+      "excerpt": "08-02-24 …",
+      "time": 1761308534062
+    },
+    {
+      "path": "03_FAMILLE/FILLES/ECOLES/EOLE/Ephemerides 24-25.md",
+      "title": "Ephemerides 24-25",
+      "excerpt": "16 septembre;Assemblée générale des parents; …",
+      "time": 1761308533880
+    },
+    {
+      "path": "03_FAMILLE/FILLES/ECOLES/EOLE/Eole dans 5 ans.md",
+      "title": "Eole dans 5 ans",
+      "excerpt": "Un endroit où les adolescents deviennent activement et passionnément les citoyens conscients et matures de notre futur. …",
+      "time": 1761308533686
+    },
+    {
+      "path": "03_FAMILLE/FILLES/CONTACTS.md",
+      "title": "CONTACTS",
+      "excerpt": "### PODOLOGUE : …",
+      "time": 1761308533665
+    },
+    {
+      "path": "02_PERSO/_04_Monde du libre - GOM Futur/Publications libres.md",
+      "title": "Publications libres",
+      "excerpt": "https://fr.wikipedia.org/wiki/Libre_acc%C3%A8s_(%C3%A9dition_scientifique)",
+      "time": 1761308533593
+    },
+    {
+      "path": "02_PERSO/_04_Monde du libre - GOM Futur/Pages-Bookmarks à creuser.md",
+      "title": "Pages-Bookmarks à creuser",
+      "excerpt": "",
+      "time": 1761308533508
+    },
+    {
+      "path": "02_PERSO/_04_Monde du libre - GOM Futur/Alternatives modernes et robustes à ExcelVBA.md",
+      "title": "Alternatives modernes et robustes à ExcelVBA",
+      "excerpt": "#### 🔎 Analyse des besoins …",
+      "time": 1761308533483
+    },
+    {
+      "path": "02_PERSO/_03_Famille/_URGENT.md",
+      "title": "_URGENT",
+      "excerpt": "1. [ ] PSY Violette …",
+      "time": 1761308533227
+    },
+    {
+      "path": "02_PERSO/_03_Famille/Mites alimentaires.md",
+      "title": "Mites alimentaires",
+      "excerpt": "# Mites alimentaires : l’astuce ultime pour les éliminer de votre cuisine …",
+      "time": 1761308533184,
+      "imageLink": "https://positivr.fr/wp-content/uploads/2025/10/shutterstock_2324413627.jpg"
+    },
+    {
+      "path": "02_PERSO/_03_Famille/Hommage Tallulah.md",
+      "title": "Hommage Tallulah",
+      "excerpt": "--- …",
+      "time": 1761308533168
+    },
+    {
+      "path": "02_PERSO/_03_Famille/Adresses famille.md",
+      "title": "Adresses famille",
+      "excerpt": "Liste Google Maps adresses famille …",
+      "time": 1761308533158
+    },
+    {
+      "path": "02_PERSO/_03_Famille/03.2_Evenements/Sans titre.md",
+      "title": "Sans titre",
+      "excerpt": "obsidian://open?vault=Obsidian_BenBaudoux&file=_070_R%C3%A9flexion%20Famille%2FVacances%20%C3%A9t%C3%A9%202025%2FId%C3%A9es%2C%20pistes%20et%20liens",
+      "time": 1761308533147
+    },
+    {
+      "path": "02_PERSO/_03_Famille/03.2_Evenements/Anniversaire Violette.md",
+      "title": "Anniversaire Violette",
+      "excerpt": "Annif Violette - Parc Reine Elisabeth - 081/73.84.13 …",
+      "time": 1761308533121
+    },
+    {
+      "path": "02_PERSO/_03_Famille/03.1_F-Santé/__KEEP IN MIND.md",
+      "title": "__KEEP IN MIND",
+      "excerpt": "Manger comme une reine le matin. …",
+      "time": 1761308533108
+    },
+    {
+      "path": "02_PERSO/_03_Famille/03.1_F-Santé/Dr Leroy.md",
+      "title": "Dr Leroy",
+      "excerpt": "#santé",
+      "time": 1761308533087
+    },
+    {
+      "path": "02_PERSO/_03_Famille/03.1_F-Santé/Dr Brédart.md",
+      "title": "Dr Brédart",
+      "excerpt": "Catherine …",
+      "time": 1761308533055
+    },
+    {
+      "path": "02_PERSO/_03_Famille/03.1_F-Santé/Adresses Soignant.e.s.md",
+      "title": "Adresses Soignant.e.s",
+      "excerpt": "Liste Google Maps adresses soignant.e.s famille …",
+      "time": 1761308533035
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/plugins à explorer_2.md",
+      "title": "plugins à explorer_2",
+      "excerpt": "Faire recherche plugins \"Templ\" …",
+      "time": 1761308533016
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_09_Sandbox/test sync.md",
+      "title": "test sync",
+      "excerpt": "",
+      "time": 1761308532994
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_09_Sandbox/projets-kanban.md.md",
+      "title": "projets-kanban.md",
+      "excerpt": "%% kanban: basic %% …",
+      "time": 1761308532973
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_09_Sandbox/Obsidian-try/Youtube summary.md",
+      "title": "Youtube summary",
+      "excerpt": "https://www.youtube.com/watch?v=odC720S63Fw …",
+      "time": 1761308532883
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_09_Sandbox/Obsidian-try/Trello Test.md",
+      "title": "Trello Test",
+      "excerpt": "--- …",
+      "time": 1761308532822
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_09_Sandbox/Obsidian-try/Test python.md",
+      "title": "Test python",
+      "excerpt": "`import micropip await micropip.install('matplotlib') import matplotlib.pyplot as plt fig, ax = plt.subplots() # Create a figure containing a single Axes. ax.plot([1, 2, 3, 4], [1, 4, 2, 3]) # Plot some data on the Axes. plt.show() # Show the figure.` …",
+      "time": 1761308532810
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_09_Sandbox/Obsidian-try/Test de code.md",
+      "title": "Test de code",
+      "excerpt": "`` …",
+      "time": 1761308532773
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_08_A trier/_- Dev paths to explorer For FDD & Me -_.md",
+      "title": "_- Dev paths to explorer For FDD & Me -_",
+      "excerpt": "--- …",
+      "time": 1761308532675
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_08_A trier/Script arborescence, profil lent et redémarrage..md",
+      "title": "Script arborescence, profil lent et redémarrage.",
+      "excerpt": "Dis j'ai besoin d'aide, j'avais enfin réussi à faire le script qui créé un fichier txt qui reprends l'arborescence d'un dossier. Sauf que je ne sais plus où je l'ai mis et pourquoi il se déclenche un peu tout le temps. Comment sur base de ce que tu vois (les fichiers texte commençant par \"arborescence...\" je peux retrouver où se trouve le script et quel programme ou action le lance stp ? J'imagine via PowerShell ? …",
+      "time": 1761308532517,
+      "imageLink": "https://files.oaiusercontent.com/file-6WtHQnSv2a6f7pyR6pcsac?se=2025-03-20T09%3A39%3A06Z&sp=r&sv=2024-08-04&sr=b&rscc=max-age%3D299%2C%20immutable%2C%20private&rscd=attachment%3B%20filename%3Dimage.png&sig=bSeAKlH/YflIDbD03sixoEWStD4AuZ/2eo%2BoN4Pag10%3D"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_08_A trier/Données à classer.md",
+      "title": "Données à classer",
+      "excerpt": "--- …",
+      "time": 1761308532485,
+      "imageLink": "Pasted image 20250606205011.png"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_08_A trier/CURRENT USSEFULL LINKS.md",
+      "title": "CURRENT USSEFULL LINKS",
+      "excerpt": "https://www.google.com/interests/saved?utm_source=web_search&utm_medium=web&utm_campaign=mavatar&hl=fr …",
+      "time": 1761308532470
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_07_PYTHON/DOCUMENTATION.md",
+      "title": "DOCUMENTATION",
+      "excerpt": "# readthedocs …",
+      "time": 1761308532428,
+      "imageLink": "https://app-assets.readthedocs.org/readthedocsext/theme/images/logo-wordmark-dark.8035ede2e46d.svg"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_06_OBSIDIAN/__OBSIDIAN.md",
+      "title": "__OBSIDIAN",
+      "excerpt": "## <u>00_COMMANDS</u> …",
+      "time": 1761308532384,
+      "imageLink": "Link"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_06_OBSIDIAN/WebClipper.md",
+      "title": "WebClipper",
+      "excerpt": "https://help.obsidian.md/Home …",
+      "time": 1761308532374,
+      "imageLink": "image.jpg"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_06_OBSIDIAN/OBSI_Plugins.md",
+      "title": "OBSI_Plugins",
+      "excerpt": "[Title Unavailable \\| Site Unreachable](https://relay.md/relay) …",
+      "time": 1761308532322
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_06_OBSIDIAN/Conseils utilisation Obsidian.md",
+      "title": "Conseils utilisation Obsidian",
+      "excerpt": "[Steph Ango](https://stephango.com/) / [Écriture](https://stephango.com/)[À propos de](https://stephango.com/about) [maintenant](https://stephango.com/now) …",
+      "time": 1761308532306
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_05_ ! Problèmes !/Piste redémarage.md",
+      "title": "Piste redémarage",
+      "excerpt": "Oui, c’est tout à fait possible. Pour chercher rapidement une tâche planifiée susceptible d’exécuter un redémarrage, tu peux : …",
+      "time": 1761308532232
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/vpn_priv_admin_public_access_.md",
+      "title": "vpn_priv_admin_public_access_",
+      "excerpt": "# Architecture distribuée : segmentation des accès via VPN auto-hébergé et passerelles dynamiques …",
+      "time": 1761308532160
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/vpn_priv_admin_public_access.md",
+      "title": "vpn_priv_admin_public_access",
+      "excerpt": "# Architecture distribuée : segmentation des accès via VPN auto-hébergé et passerelles dynamiques …",
+      "time": 1761308532139
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/vpn_priv_admin_public_access (2).md",
+      "title": "vpn_priv_admin_public_access (2)",
+      "excerpt": "# Architecture distribuée : segmentation des accès via VPN auto-hébergé et passerelles dynamiques …",
+      "time": 1761308532125
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/vpn_priv_admin_public_access (1).md",
+      "title": "vpn_priv_admin_public_access (1)",
+      "excerpt": "# Architecture distribuée : segmentation des accès via VPN auto-hébergé et passerelles dynamiques …",
+      "time": 1761308532082
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/roadmap_.md",
+      "title": "roadmap_",
+      "excerpt": "# Roadmap …",
+      "time": 1761308532069
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/roadmap.md",
+      "title": "roadmap",
+      "excerpt": "# Roadmap …",
+      "time": 1761308531982
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/readme_deploiement_bot_discord_glo_sur_raspberry_pi_partiel.md",
+      "title": "readme_deploiement_bot_discord_glo_sur_raspberry_pi_partiel",
+      "excerpt": "# 🤖 Déploiement professionnel GLO d’un Bot Discord sur Raspberry Pi …",
+      "time": 1761308531908
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/readme_deploiement_bot_discord_glo_sur_raspberry_pi (92).md",
+      "title": "readme_deploiement_bot_discord_glo_sur_raspberry_pi (92)",
+      "excerpt": "## **8. Cas d’usage concret – Bot Discord de la Coalition FFJ** …",
+      "time": 1761308531567
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/readme_deploiement_bot_discord_glo_sur_raspberry_pi (2).md",
+      "title": "readme_deploiement_bot_discord_glo_sur_raspberry_pi (2)",
+      "excerpt": "",
+      "time": 1761308531540
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/guide_bot_discord_rpi_version definitive.md",
+      "title": "guide_bot_discord_rpi_version definitive",
+      "excerpt": "# Déploiement conteneurisé et automatisé d’un bot Discord Python sur Raspberry Pi avec CI/CD : Approche systémique et reproductible à visée doctorale …",
+      "time": 1761308531523
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/guide_bot_discord_rpi.md",
+      "title": "guide_bot_discord_rpi",
+      "excerpt": "# Déploiement conteneurisé et automatisé d’un bot Discord Python sur Raspberry Pi avec CI/CD : Approche systémique et reproductible à visée doctorale …",
+      "time": 1761308531449
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/guide_bot_discord_rpi (1).md",
+      "title": "guide_bot_discord_rpi (1)",
+      "excerpt": "# Déploiement conteneurisé et automatisé d’un bot Discord Python sur Raspberry Pi avec CI/CD : Approche systémique et reproductible à visée doctorale …",
+      "time": 1761308531427
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/docker_discord_bot.md",
+      "title": "docker_discord_bot",
+      "excerpt": "# README - Architecture Dockerisée Avancée pour un Bot Discord en Python avec Intégration CI/CD Léger sur Infrastructure Auto-hébergée …",
+      "time": 1761308531391
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/docker_discord_bot (1).md",
+      "title": "docker_discord_bot (1)",
+      "excerpt": "# README - Architecture Dockerisée Avancée pour un Bot Discord Python Auto-hébergé avec CI/CD Léger …",
+      "time": 1761308531364
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/__guide_bot_discord_rpi.md",
+      "title": "__guide_bot_discord_rpi",
+      "excerpt": "# Déploiement professionnel et automatisé d’un bot Discord Python sur Raspberry Pi avec CI/CD …",
+      "time": 1761308531333
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/Table des matières.md",
+      "title": "Table des matières",
+      "excerpt": "# 🤖 Déploiement professionnel GLO d’un Bot Discord sur Raspberry Pi …",
+      "time": 1761308531310
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/TROUBLESHOOTING.md",
+      "title": "TROUBLESHOOTING",
+      "excerpt": "# Issues & Solutions …",
+      "time": 1761308531288
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/RPI - DiscordBot - Guide & README - FINAL.md",
+      "title": "RPI - DiscordBot - Guide & README - FINAL",
+      "excerpt": "# 📦 Déploiement automatisé d’un bot Discord Python sur Raspberry Pi (GLO) …",
+      "time": 1761308531271
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/README_GENERATED.md",
+      "title": "README_GENERATED",
+      "excerpt": "# 🤖 Bot Discord Python – Déploiement Dockerisé avec CI/CD …",
+      "time": 1761308531234
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/README.md",
+      "title": "README",
+      "excerpt": "# discordbot_coalffj …",
+      "time": 1761308531187
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/GUIDE RPI - bot_discord - devops.md",
+      "title": "GUIDE RPI - bot_discord - devops",
+      "excerpt": "# 📦 Déploiement automatisé d’un bot Discord Python sur Raspberry Pi (GLO) …",
+      "time": 1761308531151
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/Bot - Coalition FFJ.md",
+      "title": "Bot - Coalition FFJ",
+      "excerpt": "## <u>core.py</u> …",
+      "time": 1761308531103
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/Fusion FINAL des README ARCHITECTURES & DEVOPS/1_bot_discord_rpi.md",
+      "title": "1_bot_discord_rpi",
+      "excerpt": "# Déploiement du bot Discord sur Raspberry Pi …",
+      "time": 1761308531070
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/DEFINITIF/🤖 Déploiement professionnel GLO d’un Bot Discord sur Raspberry Pi.md",
+      "title": "🤖 Déploiement professionnel GLO d’un Bot Discord sur Raspberry Pi",
+      "excerpt": "## 🤖 Déploiement professionnel GLO d’un Bot Discord sur Raspberry Pi …",
+      "time": 1761308531036,
+      "imageLink": "Pasted image 20250808143413.png|716"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/DEFINITIF/README_CoalFFJ_RPi_Windows.md",
+      "title": "README_CoalFFJ_RPi_Windows",
+      "excerpt": "# 🚀 Déploiement et Gestion du Bot Discord COAL_FFJ sur Raspberry Pi avec Gitea …",
+      "time": 1761308531015
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/DEFINITIF/Analyse de chatGPT.md",
+      "title": "Analyse de chatGPT",
+      "excerpt": "Salut 4.1, j'espère que déjà je choisi le bon modèle. J'ai une mission extrémement importante et complexe pour toi. Je souhaiterai, si tu peux le faire, c'est d'extraire tous les fichiers markdown du fichier zip. Analyse les en détails et en profondeur, prendre bien ton temps pour faire l'analyse approfondie. Je souhaiterai que tu me propose pour commencer un résumé de ce que tu as compris. Ensuite, si possible fusionner les fichiers qui concernent le même projet. TOUT en veillant à bien garder le niveau de compléxité et de détails le plus élevé possible. Il faut aussi veiller à la cohérence. Merci. …",
+      "time": 1761308530996
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/CONFIGURATION.md",
+      "title": "CONFIGURATION",
+      "excerpt": "--- …",
+      "time": 1761308530948
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/3_problemes_ssh.md",
+      "title": "3_problemes_ssh",
+      "excerpt": "# Problèmes de connexion SSH – Analyse et solutions …",
+      "time": 1761308530879
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_04_RASPBERRY PI/2_param_power_user.md",
+      "title": "2_param_power_user",
+      "excerpt": "# Configuration utilisateur PowerShell & Menu contextuel …",
+      "time": 1761308530846
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/Ressources.AI.Divers.md",
+      "title": "Ressources.AI.Divers",
+      "excerpt": "https://fr.wikipedia.org/wiki/Model_Context_Protocol …",
+      "time": 1761308530768
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/README.md",
+      "title": "README",
+      "excerpt": "# RepoGitObsiGpt …",
+      "time": 1761308530708
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/OpenAI.md",
+      "title": "OpenAI",
+      "excerpt": "https://help.openai.com/en/articles/11752874-chatgpt-agent …",
+      "time": 1761308530689
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/JARVIS/Ressources brutes/Ressources brutes.md",
+      "title": "Ressources brutes",
+      "excerpt": "[RepoGitObsiGpt/02_PERSO/IA - chatGPT/Nouvelle mémoire.md at main · Carouan/RepoGitObsiGpt](https://github.com/Carouan/RepoGitObsiGpt/blob/main/02_PERSO/IA%20-%20chatGPT/Nouvelle%20m%C3%A9moire.md) …",
+      "time": 1761308530661
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/JARVIS/Ressources brutes.md",
+      "title": "Ressources brutes",
+      "excerpt": "Pages enregistrées avec Obsidian Web Clipper …",
+      "time": 1761308530630
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/chatGPT Desktop.md",
+      "title": "chatGPT Desktop",
+      "excerpt": "https://github.com/lencx/ChatGPT",
+      "time": 1761308530607
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Sans titre.md",
+      "title": "Sans titre",
+      "excerpt": "## 1. Informations personnelles et familiales …",
+      "time": 1761308530562
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Prompts utiles.md",
+      "title": "Prompts utiles",
+      "excerpt": "\"Merci de conserver une **synthèse structurée** de notre échange et de l’**enrichir au fur et à mesure**, avec : …",
+      "time": 1761308530319
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Nouvelle mémoire.md",
+      "title": "Nouvelle mémoire",
+      "excerpt": "## 1. Informations personnelles et familiales …",
+      "time": 1761308530004
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Mémoire retravaillée..md",
+      "title": "Mémoire retravaillée.",
+      "excerpt": "## 1. Projets d’hébergement et d’infrastructures (Raspberry Pi, Docker, etc.) …",
+      "time": 1761308529968
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Mémoire chatGPT brut.md",
+      "title": "Mémoire chatGPT brut",
+      "excerpt": "|                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                              |     | …",
+      "time": 1761308529934
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Lier domaine carouan.be à OpenAI.md",
+      "title": "Lier domaine carouan.be à OpenAI",
+      "excerpt": "Pour vérifier la propriété de carouan.be, naviguez vers votre fournisseur DNS et ajoutez un enregistrement TXT avec la valeur : …",
+      "time": 1761308529781
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/Instructions personnalisées.md",
+      "title": "Instructions personnalisées",
+      "excerpt": "**Avez-vous des informations à fournir à ChatGPT pour l’aider à mieux vous répondre ?** …",
+      "time": 1761308529713
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_03_I.A. global/IA - chatGPT/CONNECT - GMAIL & TELEGRAM.md",
+      "title": "CONNECT - GMAIL & TELEGRAM",
+      "excerpt": "# Plan d’ensemble …",
+      "time": 1761308529670
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_02_PROJETS/[Projet] Catalogue livres automatisé.md",
+      "title": "[Projet] Catalogue livres automatisé",
+      "excerpt": "https://www.appsheet.com/template/appdef?appId=BooktrackingwithGemini-2078346&appName=BooktrackingwithGemini-2078346#Home …",
+      "time": 1761308529650,
+      "imageLink": "Pasted image 20250607092816.png"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_02_PROJETS/[Carouans Scripts] deploy via repo.md",
+      "title": "[Carouans Scripts] deploy via repo",
+      "excerpt": "![[Pasted image 20250726144122.png]]",
+      "time": 1761308529617,
+      "imageLink": "Pasted image 20250726144122.png"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_02_PROJETS/SUMP/Ressources - SUMP.md",
+      "title": "Ressources - SUMP",
+      "excerpt": "https://github.com/Carouan/SetUpMyPi---SUMP …",
+      "time": 1761308529582
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_02_PROJETS/Roadmap_covoiturage.md",
+      "title": "Roadmap_covoiturage",
+      "excerpt": "# 📍 Projet Covoiturage GLOM – Roadmap évolutive (niveau doctorant) …",
+      "time": 1761308529547
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_02_PROJETS/GitHub - Gestion comptes et dépôts.md",
+      "title": "GitHub - Gestion comptes et dépôts",
+      "excerpt": "# 1 Comptes …",
+      "time": 1761308529491
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_02_PROJETS/Domotique/Ressources brutes à trier.md",
+      "title": "Ressources brutes à trier",
+      "excerpt": "-  TP-Link Tapo Mini Smart Wi-Fi Socket Energy Monitor Prise intelligente 3680 W Maison Blanc …",
+      "time": 1761308529469,
+      "imageLink": "Pasted image 20250328121933.png"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_02_PROJETS/Construction d'un projet Python.md",
+      "title": "Construction d'un projet Python",
+      "excerpt": "Voici une synthèse pour organiser un projet Python « de A à Z » en prenant en compte les outils, bonnes pratiques et fichiers clés que tu as listés. L’idée est de te donner une vision globale et un **enchaînement logique** pour mettre en place une architecture qui soit à la fois propre, robuste et adaptée aux besoins métiers. …",
+      "time": 1761308529423
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_01_NEXT-JOB-MSP/MSP - NEXT-JOB.md",
+      "title": "MSP - NEXT-JOB",
+      "excerpt": "https://chatgpt.com/c/67f4d34a-38c8-800c-810f-000557ff31ab …",
+      "time": 1761308529364,
+      "imageLink": "Pasted image 20250408101752.png"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_00_Ressources/admin_linux_cheatsheet.md",
+      "title": "admin_linux_cheatsheet",
+      "excerpt": "# 🛠️ Cheatsheet Admin Linux RPi – Sébastien …",
+      "time": 1761308529145
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_00_Ressources/UNIX-Linux Commands.md",
+      "title": "UNIX-Linux Commands",
+      "excerpt": "https://fr.wikipedia.org/wiki/Uname …",
+      "time": 1761308528940
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_00_Ressources/SERVICES.md",
+      "title": "SERVICES",
+      "excerpt": "https://docs.github.com/fr …",
+      "time": 1761308528863
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_00_Ressources/PYTHON - Pistes à explorer.md",
+      "title": "PYTHON - Pistes à explorer",
+      "excerpt": "# Brython …",
+      "time": 1761308528697
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_00_Ressources/Google Chrome.md",
+      "title": "Google Chrome",
+      "excerpt": "## Plugins à tester …",
+      "time": 1761308528659
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_00_Ressources/GLOSSAIRE.md",
+      "title": "GLOSSAIRE",
+      "excerpt": "",
+      "time": 1761308528509
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_00_Ressources/API STUFF.md",
+      "title": "API STUFF",
+      "excerpt": "## Spotify …",
+      "time": 1761308528480
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_00_Ressources/ADMIN_LINUX.md",
+      "title": "ADMIN_LINUX",
+      "excerpt": "# 🛠️ **Cheatsheet Admin Linux RPi – Sébastien** …",
+      "time": 1761308528049
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/XMBC vs AutoHotkey (AHK).md",
+      "title": "XMBC vs AutoHotkey (AHK)",
+      "excerpt": "## XMBC vs AutoHotkey (AHK) — quoi choisir ? …",
+      "time": 1761308527775
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Sans titre.md",
+      "title": "Sans titre",
+      "excerpt": "SSID: VOO-YXRRUWM  …",
+      "time": 1761308527736
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Plugins à explorer.md",
+      "title": "Plugins à explorer",
+      "excerpt": "![[Pasted image 20250926125304.png]]",
+      "time": 1761308527672,
+      "imageLink": "Pasted image 20250926125304.png"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/PROD-TEST & PR.md",
+      "title": "PROD-TEST & PR",
+      "excerpt": "--- …",
+      "time": 1761308527485
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Mémoire chatGPT - 25juil25.md",
+      "title": "Mémoire chatGPT - 25juil25",
+      "excerpt": "# 🧠 Mémoire ChatGPT – Sébastien Baudoux …",
+      "time": 1761308527422
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Laptop Miriam.md",
+      "title": "Laptop Miriam",
+      "excerpt": "Product Name : IdeaPad Slim 5 16IAH8 …",
+      "time": 1761308526778
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/LISTE DOSSIERS-PROJETS chatGPT/Liste des projets dans chatGPT.md",
+      "title": "Liste des projets dans chatGPT",
+      "excerpt": "- Femmes de droit …",
+      "time": 1761308526575
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Idées discussions de fond avec IA.md",
+      "title": "Idées discussions de fond avec IA",
+      "excerpt": "# - Serait-il possible d'imaginer une sorte de crispcas 9 pour modifier les llm ? …",
+      "time": 1761308526505
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/ICT_TODO.md",
+      "title": "ICT_TODO",
+      "excerpt": "- [ ] .. …",
+      "time": 1761308526464
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/EXCEL.md",
+      "title": "EXCEL",
+      "excerpt": "### A mettre dans complément Excel …",
+      "time": 1761308526390
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Compétences, légitimité et stratégie bêta GLO.md",
+      "title": "Compétences, légitimité et stratégie bêta GLO",
+      "excerpt": "# Compétences, légitimité et stratégie bêta GLO …",
+      "time": 1761308526330
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Carouan - Repositories · GitHub.md",
+      "title": "Carouan - Repositories · GitHub",
+      "excerpt": "## Navigation Menu …",
+      "time": 1761308526277,
+      "imageLink": "https://avatars.githubusercontent.com/u/17993209?s=64&v=4"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/CI-CD/Principes.md",
+      "title": "Principes",
+      "excerpt": "[GitHub Docs](https://docs.github.com/fr) …",
+      "time": 1761308526196
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Bluetooth.md",
+      "title": "Bluetooth",
+      "excerpt": "[Connecter plusieurs dispositifs Bluetooth à un seul appareil : le guide pratique](https://www.idhd.fr/dispositifs-bluetooth-appareil/) …",
+      "time": 1761308525994
+    },
+    {
+      "path": "02_PERSO/_01_Développement PERSO/Réflexions Perso.md",
+      "title": "Réflexions Perso",
+      "excerpt": "",
+      "time": 1761308525885
+    },
+    {
+      "path": "02_PERSO/_01_Développement PERSO/Raccourcis à mettre dans Espanso pour codage.md",
+      "title": "Raccourcis à mettre dans Espanso pour codage",
+      "excerpt": "Bloc de commentaire - Section PHP …",
+      "time": 1761308525851
+    },
+    {
+      "path": "02_PERSO/_01_Développement PERSO/PERSO-PSY-PERSO.md",
+      "title": "PERSO-PSY-PERSO",
+      "excerpt": "### Je dois systématiquement identifier quand Miriam est sauveuse et moi victime.",
+      "time": 1761308525761
+    },
+    {
+      "path": "02_PERSO/_01_Développement PERSO/Gestion du temps.md",
+      "title": "Gestion du temps",
+      "excerpt": "Fabien Olicard - Le livre qui vous fera gagner du temps. Révolutionnez votre vie. …",
+      "time": 1761308525663,
+      "imageLink": "Pasted image 20250603104403.png"
+    },
+    {
+      "path": "02_PERSO/_01_Développement PERSO/Août 2025.md",
+      "title": "Août 2025",
+      "excerpt": "### 1) Architecture générale (flux & rôles) …",
+      "time": 1761308525579
+    },
+    {
+      "path": "02_PERSO/MyMinfin.md",
+      "title": "MyMinfin",
+      "excerpt": "--- …",
+      "time": 1761308525325
+    },
+    {
+      "path": "02_PERSO/JARVIS/Ressources brutes/Ressources brutes.md",
+      "title": "Ressources brutes",
+      "excerpt": "Date publication : 2025-10-15T19:00:00+02:00  ||  [Mites alimentaires : l’astuce ultime pour les éliminer de votre cuisine](https://positivr.fr/mites-alimentaires-lastuce-ultime-pour-les-eliminer-de-votre-cuisine/) …",
+      "time": 1761308525188
+    },
+    {
+      "path": "02_PERSO/ACHATS/Clavier.md",
+      "title": "Clavier",
+      "excerpt": "[Amazon.fr : clavier souple filiaire touchpad](https://www.amazon.fr/s?k=clavier+souple+filiaire+touchpad&__mk_fr_FR=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=SYIMXKB5SGVT&sprefix=clavier+souple+filiaire+touchpad%2Caps%2C172&ref=nb_sb_noss) …",
+      "time": 1761308525155
+    },
+    {
+      "path": "02_PERSO/06_DIvers & Culture/RABBIN DES BOIS – COMMENT SÉCURISER SES RÉSEAUX SOCIAUX 1.md",
+      "title": "RABBIN DES BOIS – COMMENT SÉCURISER SES RÉSEAUX SOCIAUX 1",
+      "excerpt": "### Titre : COMMENT SÉCURISER SES RÉSEAUX SOCIAUX ? …",
+      "time": 1761308524995,
+      "imageLink": "https://www.youtube.com/watch?v=V3xgNCM9yVw"
+    },
+    {
+      "path": "02_PERSO/06_DIvers & Culture/Musique.md",
+      "title": "Musique",
+      "excerpt": "https://fr.wikipedia.org/wiki/Na%C3%AFve_Records …",
+      "time": 1761308524927
+    },
+    {
+      "path": "02_PERSO/06_DIvers & Culture/Inbox_ICT.md",
+      "title": "Inbox_ICT",
+      "excerpt": "[George Hotz — Wikipédia](https://fr.wikipedia.org/wiki/George_Hotz)  : hacker américain …",
+      "time": 1761308524895,
+      "imageLink": "image.jpg"
+    },
+    {
+      "path": "02_PERSO/06_DIvers & Culture/Inbox_FDD.md",
+      "title": "Inbox_FDD",
+      "excerpt": "---",
+      "time": 1761308524847
+    },
+    {
+      "path": "02_PERSO/06_DIvers & Culture/Inbox_Cinéma.md",
+      "title": "Inbox_Cinéma",
+      "excerpt": "Liste des actr.eurs/ices, réalist.eurs/trices, et autres que je kiffe. …",
+      "time": 1761308524777,
+      "imageLink": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/James_Cromwell_2015.jpg/220px-James_Cromwell_2015.jpg"
+    },
+    {
+      "path": "02_PERSO/06_DIvers & Culture/Chanteuses Féministes/FeFe.md",
+      "title": "FeFe",
+      "excerpt": "# Festival Féministe …",
+      "time": 1761308524683
+    },
+    {
+      "path": "01_Periodic Notes/TODO.md",
+      "title": "TODO",
+      "excerpt": "5378ee2 …",
+      "time": 1761308524479
+    },
+    {
+      "path": "01_Periodic Notes/01.3_Monthly/Todo Janvier 2025.md",
+      "title": "Todo Janvier 2025",
+      "excerpt": "1. [ ] Gérer les dépôts github …",
+      "time": 1761308524324
+    },
+    {
+      "path": "01_Periodic Notes/01.3_Monthly/Janvier 2025/_Vendredi 24-01-25.md",
+      "title": "_Vendredi 24-01-25",
+      "excerpt": "- Courses FDD  …",
+      "time": 1761308524015
+    },
+    {
+      "path": "01_Periodic Notes/01.3_Monthly/Janvier 2025/25.02.01.sam..md",
+      "title": "25.02.01.sam.",
+      "excerpt": "# **TODO TODAY** …",
+      "time": 1761308523853
+    },
+    {
+      "path": "01_Periodic Notes/01.3_Monthly/Janvier 2025/25.01.30.jeu..md",
+      "title": "25.01.30.jeu.",
+      "excerpt": "# **TODO TODAY** …",
+      "time": 1761308523796
+    },
+    {
+      "path": "01_Periodic Notes/01.3_Monthly/Janvier 2025/25.01.29.mer..md",
+      "title": "25.01.29.mer.",
+      "excerpt": "- [ ] Check mail de agence maison. …",
+      "time": 1761308523653
+    },
+    {
+      "path": "01_Periodic Notes/01.3_Monthly/Janvier 2025/25.01.26.dim..md",
+      "title": "25.01.26.dim.",
+      "excerpt": "- [x] glace vanille …",
+      "time": 1761308523540
+    },
+    {
+      "path": "01_Periodic Notes/01.3_Monthly/Janvier 2025/25.01.24.ven..md",
+      "title": "25.01.24.ven.",
+      "excerpt": "- Argent ORES …",
+      "time": 1761308523315
+    },
+    {
+      "path": "01_Periodic Notes/01.3_Monthly/Février 2025/25.02.03.lun..md",
+      "title": "25.02.03.lun.",
+      "excerpt": "# **TODO TODAY** …",
+      "time": 1761308523250
+    },
+    {
+      "path": "01_Periodic Notes/01.3_Monthly/25.03.24.lu.md",
+      "title": "25.03.24.lu",
+      "excerpt": "### 📌 Tâches reportées : …",
+      "time": 1761308523181
+    },
+    {
+      "path": "01_Periodic Notes/01.3_Monthly/2025-01.md",
+      "title": "2025-01",
+      "excerpt": "",
+      "time": 1761308523019
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.09.16.mar..md",
+      "title": "25.09.16.mar.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308522899
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.09.16.ma.md",
+      "title": "25.09.16.ma",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308522774
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.09.08.lun..md",
+      "title": "25.09.08.lun.",
+      "excerpt": "",
+      "time": 1761308522670
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.09.07.dim..md",
+      "title": "25.09.07.dim.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308522620,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.09.06.sam..md",
+      "title": "25.09.06.sam.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308522464,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.09.05.ven..md",
+      "title": "25.09.05.ven.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308522303,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.09.05.ve.md",
+      "title": "25.09.05.ve",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308522076,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.09.04.jeu..md",
+      "title": "25.09.04.jeu.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308521746,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.09.04.je.md",
+      "title": "25.09.04.je",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308521464,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.25.lun..md",
+      "title": "25.08.25.lun.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308521263,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.24.dim..md",
+      "title": "25.08.24.dim.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308521137,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.24.di.md",
+      "title": "25.08.24.di",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308521008,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.23.sam..md",
+      "title": "25.08.23.sam.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308520859,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.22.ven..md",
+      "title": "25.08.22.ven.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308520793,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.22.ve.md",
+      "title": "25.08.22.ve",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308520690,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.21.jeu..md",
+      "title": "25.08.21.jeu.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308520509,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.21.je.md",
+      "title": "25.08.21.je",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308520291,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.20.mer..md",
+      "title": "25.08.20.mer.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308520205,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.20.me.md",
+      "title": "25.08.20.me",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308520095,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.19.mar..md",
+      "title": "25.08.19.mar.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308519858,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.19.ma.md",
+      "title": "25.08.19.ma",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308519701,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.18.lun..md",
+      "title": "25.08.18.lun.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308518855,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.18.lu.md",
+      "title": "25.08.18.lu",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308518555,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.16.sam..md",
+      "title": "25.08.16.sam.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308518342,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.15.ven..md",
+      "title": "25.08.15.ven.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308518262,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.15.ve.md",
+      "title": "25.08.15.ve",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308518099,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.14.jeu..md",
+      "title": "25.08.14.jeu.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517974,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.14.je.md",
+      "title": "25.08.14.je",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517807,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.13.mer..md",
+      "title": "25.08.13.mer.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517727,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.13.me.md",
+      "title": "25.08.13.me",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517676,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.12.mar..md",
+      "title": "25.08.12.mar.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517633,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.11.lun..md",
+      "title": "25.08.11.lun.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517613,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.11.lu.md",
+      "title": "25.08.11.lu",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517577,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.10.dim..md",
+      "title": "25.08.10.dim.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517532,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.09.sam..md",
+      "title": "25.08.09.sam.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517509,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.09.sa.md",
+      "title": "25.08.09.sa",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517492,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.08.ven..md",
+      "title": "25.08.08.ven.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517466,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.08.ve.md",
+      "title": "25.08.08.ve",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517445,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.06.mer..md",
+      "title": "25.08.06.mer.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517417,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.05.mar..md",
+      "title": "25.08.05.mar.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517368,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.04.lun..md",
+      "title": "25.08.04.lun.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517218,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.04.lu.md",
+      "title": "25.08.04.lu",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308517171,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.03.dim..md",
+      "title": "25.08.03.dim.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308516876,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.02.sam..md",
+      "title": "25.08.02.sam.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308516818,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.08.01.ven..md",
+      "title": "25.08.01.ven.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308516549,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.31.jeu..md",
+      "title": "25.07.31.jeu.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308516426
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.31.je.md",
+      "title": "25.07.31.je",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308516225,
+      "imageLink": "Pasted image 20250731120130.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.30.mer..md",
+      "title": "25.07.30.mer.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308516115
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.30.me.md",
+      "title": "25.07.30.me",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308516055
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.29.mar..md",
+      "title": "25.07.29.mar.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308515918
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.29.ma.md",
+      "title": "25.07.29.ma",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308515849
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/_00_Ressources/logo_gitea.jpg",
+      "title": "logo_gitea",
+      "excerpt": "����\u0000\u0010JFIF\u0000\u0001\u0001\u0000\u0000\u0001\u0000\u0001\u0000\u0000��\u0000C\u0000\u0003\u0002\u0002\u0002\u0002\u0002\u0003\u0002\u0002\u0002\u0003\u0003\u0003\u0003\u0004\u0006\u0004\u0004\u0004\u0004\u0004\b\u0006\u0006\u0005\u0006\t\b …",
+      "time": 1761308515072,
+      "imageLink": "02_PERSO/_02_ICT Global/_00_Ressources/logo_gitea.jpg"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.27.dim..md",
+      "title": "25.07.27.dim.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308515017
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.27.di.md",
+      "title": "25.07.27.di",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308514876
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.25.ven..md",
+      "title": "25.07.25.ven.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308514816
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.25.ve.md",
+      "title": "25.07.25.ve",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308514710
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.23.mer..md",
+      "title": "25.07.23.mer.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308514616
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.23.me.md",
+      "title": "25.07.23.me",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308514450
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.22.mar..md",
+      "title": "25.07.22.mar.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308514298
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.22.ma.md",
+      "title": "25.07.22.ma",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513883
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.20.dim..md",
+      "title": "25.07.20.dim.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513866
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.07.17.jeu..md",
+      "title": "25.07.17.jeu.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513809
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.24.mar..md",
+      "title": "25.06.24.mar.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513748
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.24.ma.md",
+      "title": "25.06.24.ma",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513700
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.19.je.md",
+      "title": "25.06.19.je",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513617
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.18.mer..md",
+      "title": "25.06.18.mer.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513530
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.18.me.md",
+      "title": "25.06.18.me",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513378
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.17.ma.md",
+      "title": "25.06.17.ma",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513358
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.15.di.md",
+      "title": "25.06.15.di",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513225
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.14.sam..md",
+      "title": "25.06.14.sam.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513158
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.14.sa.md",
+      "title": "25.06.14.sa",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513086
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.12.jeu..md",
+      "title": "25.06.12.jeu.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308513033
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.12.je.md",
+      "title": "25.06.12.je",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512996
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.10.mar..md",
+      "title": "25.06.10.mar.",
+      "excerpt": "",
+      "time": 1761308512968
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.10.ma.md",
+      "title": "25.06.10.ma",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512951
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.09.lun..md",
+      "title": "25.06.09.lun.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512903
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.09.lu.md",
+      "title": "25.06.09.lu",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512881
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.08.dim..md",
+      "title": "25.06.08.dim.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512865
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.08.di.md",
+      "title": "25.06.08.di",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512841
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.06.ven..md",
+      "title": "25.06.06.ven.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512823
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.06.ve.md",
+      "title": "25.06.06.ve",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512808
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.03.mar..md",
+      "title": "25.06.03.mar.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512735
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.02.lun..md",
+      "title": "25.06.02.lun.",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512661
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.06.02.lu.md",
+      "title": "25.06.02.lu",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512212
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.05.24.sa.md",
+      "title": "25.05.24.sa",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308512109
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.05.20.ma.md",
+      "title": "25.05.20.ma",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308511862
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.05.19.lu.md",
+      "title": "25.05.19.lu",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308511813
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.05.13.ma.md",
+      "title": "25.05.13.ma",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308511527
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.05.09.ve.md",
+      "title": "25.05.09.ve",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308511314
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.05.05.lu.md",
+      "title": "25.05.05.lu",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308511086
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.04.24.je.md",
+      "title": "25.04.24.je",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308510942
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.04.22.ma.md",
+      "title": "25.04.22.ma",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308510783
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.30.di.md",
+      "title": "25.03.30.di",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308510562
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.29.sa.md",
+      "title": "25.03.29.sa",
+      "excerpt": "- [ ] Test …",
+      "time": 1761308509927,
+      "imageLink": "Pasted image 20250404103110.png"
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.28.ve.md",
+      "title": "25.03.28.ve",
+      "excerpt": "--- …",
+      "time": 1761308509731
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.27.je.md",
+      "title": "25.03.27.je",
+      "excerpt": "- [ ] Recontacter invités anniversaire Marjolaine + cadeaux (🟢|Créé: 26/03/2025 | 1 jours | 1 reports) …",
+      "time": 1761308508904
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.26.me.md",
+      "title": "25.03.26.me",
+      "excerpt": "- [ ] Recontacter invités anniversaire Marjolaine + cadeaux …",
+      "time": 1761308508757
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.25.ma.md",
+      "title": "25.03.25.ma",
+      "excerpt": "## 📌 Tâches reportées : …",
+      "time": 1761308508537
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.21.ve.md",
+      "title": "25.03.21.ve",
+      "excerpt": "### 📌 Tâches reportées : …",
+      "time": 1761308508319
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.20.je.md",
+      "title": "25.03.20.je",
+      "excerpt": "- [ ] Pourquoi le user script mets si longtemps. (c.f. lancement PowerShell) …",
+      "time": 1761308508010
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.19.me.md",
+      "title": "25.03.19.me",
+      "excerpt": "### 📌 Tâches reportées : …",
+      "time": 1761308507632
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.17.lu.md",
+      "title": "25.03.17.lu",
+      "excerpt": "# **TODO TODAY** …",
+      "time": 1761308505309
+    },
+    {
+      "path": "01_Periodic Notes/01.1_Daily/25.03.15.sa.md",
+      "title": "25.03.15.sa",
+      "excerpt": "# **TODO TODAY** …",
+      "time": 1761308505010
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/reportTasks.js.md",
+      "title": "reportTasks.js",
+      "excerpt": "",
+      "time": 1761308503192
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/_modèle_Note Quotidienne backup.md",
+      "title": "_modèle_Note Quotidienne backup",
+      "excerpt": "## 📋 Tâches à faire : …",
+      "time": 1761308502777
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/_modèle_Note Quotidienne 1.md",
+      "title": "_modèle_Note Quotidienne 1",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308502671
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/Templater's Scripts.md",
+      "title": "Templater's Scripts",
+      "excerpt": "## Tâches non terminées d’hier …",
+      "time": 1761308502538
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/Templater's Scripts 1.md",
+      "title": "Templater's Scripts 1",
+      "excerpt": "// 🧠 Script Templater pour Obsidian — Version commentée …",
+      "time": 1761308502426
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/T_ListePlugins.md",
+      "title": "T_ListePlugins",
+      "excerpt": "<%*## Liste des plugins communautaires …",
+      "time": 1761308502386
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/T_ActivatedPlugins.md",
+      "title": "T_ActivatedPlugins",
+      "excerpt": "<%* …",
+      "time": 1761308502247
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/Projets scripts.md",
+      "title": "Projets scripts",
+      "excerpt": "-  Reporter les tâches non complétées de la veille. …",
+      "time": 1761308502091
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/Note de test pour vérif NON suppression.md",
+      "title": "Note de test pour vérif NON suppression",
+      "excerpt": "",
+      "time": 1761308501985
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/ListePlugins.md",
+      "title": "ListePlugins",
+      "excerpt": "## Liste des plugins installés …",
+      "time": 1761308501934
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/Home page.md",
+      "title": "Home page",
+      "excerpt": "--- …",
+      "time": 1761308501570
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/Commandes Obsidian.md",
+      "title": "Commandes Obsidian",
+      "excerpt": "Voici votre nouveau *coffre*. …",
+      "time": 1761308501378
+    },
+    {
+      "path": "00_OBSI-CORE/x_A trier/API Key's.md",
+      "title": "API Key's",
+      "excerpt": "GitHub CAROUAN …",
+      "time": 1761308501278
+    },
+    {
+      "path": "00_OBSI-CORE/__MARKDOWN CHEATSHEET.md",
+      "title": "__MARKDOWN CHEATSHEET",
+      "excerpt": "## TEXTES …",
+      "time": 1761308501107,
+      "imageLink": "logo_gitea.jpg|150"
+    },
+    {
+      "path": "00_OBSI-CORE/VARIABLES/REPOS GITHUB.md",
+      "title": "REPOS GITHUB",
+      "excerpt": "RepoGitObsiGpt : (https://github.com/Carouan/RepoGitObsiGpt)",
+      "time": 1761308501003
+    },
+    {
+      "path": "010_Ressources/Images/Pasted image 20251012150220.png",
+      "title": "Pasted image 20251012150220",
+      "excerpt": "�PNG\r …",
+      "time": 1761308500991,
+      "imageLink": "010_Ressources/Images/Pasted image 20251012150220.png"
+    },
+    {
+      "path": "010_Ressources/Images/Pasted image 20251012150043.png",
+      "title": "Pasted image 20251012150043",
+      "excerpt": "�PNG\r …",
+      "time": 1761308500954,
+      "imageLink": "010_Ressources/Images/Pasted image 20251012150043.png"
+    },
+    {
+      "path": "010_Ressources/Images/Pasted image 20250926144116.png",
+      "title": "Pasted image 20250926144116",
+      "excerpt": "�PNG\r …",
+      "time": 1761308500948,
+      "imageLink": "010_Ressources/Images/Pasted image 20250926144116.png"
+    },
+    {
+      "path": "010_Ressources/Images/Pasted image 20250926144020.png",
+      "title": "Pasted image 20250926144020",
+      "excerpt": "�PNG\r …",
+      "time": 1761308500823,
+      "imageLink": "010_Ressources/Images/Pasted image 20250926144020.png"
+    },
+    {
+      "path": "00_OBSI-CORE/VARIABLES/Notes pas complétées..md",
+      "title": "Notes pas complétées.",
+      "excerpt": "```tasks …",
+      "time": 1761308500817
+    },
+    {
+      "path": "010_Ressources/Images/Pasted image 20250926143901.png",
+      "title": "Pasted image 20250926143901",
+      "excerpt": "�PNG\r …",
+      "time": 1761308500731,
+      "imageLink": "010_Ressources/Images/Pasted image 20250926143901.png"
+    },
+    {
+      "path": "00_OBSI-CORE/VARIABLES/API Key's.md",
+      "title": "API Key's",
+      "excerpt": "### Résumé automatique …",
+      "time": 1761308500698
+    },
+    {
+      "path": "010_Ressources/Images/Pasted image 20250926125304.png",
+      "title": "Pasted image 20250926125304",
+      "excerpt": "�PNG\r …",
+      "time": 1761308500679,
+      "imageLink": "010_Ressources/Images/Pasted image 20250926125304.png"
+    },
+    {
+      "path": "00_OBSI-CORE/SCRIPTS/report-tasks.md",
+      "title": "report-tasks",
+      "excerpt": "<%* …",
+      "time": 1761308500571
+    },
+    {
+      "path": "00_OBSI-CORE/SCRIPTS/Z_MoveAndFormatClip.md",
+      "title": "Z_MoveAndFormatClip",
+      "excerpt": "<%* …",
+      "time": 1761308500405
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban/dashboard.md",
+      "title": "dashboard",
+      "excerpt": "# 🧭 Tableau de bord - Projets & Sprints …",
+      "time": 1761308500368
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban/Templates/sprint-template.md",
+      "title": "sprint-template",
+      "excerpt": "# Sprint semaine X (DATE) …",
+      "time": 1761308499941
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban/Projets/sprint-2025-06-01.md",
+      "title": "sprint-2025-06-01",
+      "excerpt": "# Sprint semaine 1 (1-7 juin 2025) …",
+      "time": 1761308499700
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban/Projets/retrospective.md",
+      "title": "retrospective",
+      "excerpt": "# Rétrospective - Sprint 1 …",
+      "time": 1761308499404
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban/Projets/projets-kanban.md",
+      "title": "projets-kanban",
+      "excerpt": "--- …",
+      "time": 1761308499225
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban/00_LISEZ-MOI.md",
+      "title": "00_LISEZ-MOI",
+      "excerpt": "# 📁 Bienvenue dans ton système de gestion de projet personnel (Obsidian + Kanban) …",
+      "time": 1761308498878
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban-v2/Templates/retrospective-template.md",
+      "title": "retrospective-template",
+      "excerpt": "# Rétrospective - Sprint X …",
+      "time": 1761308498819
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban-v2/Templates/project-setup.md",
+      "title": "project-setup",
+      "excerpt": "## Template Setup (à automatiser via Templater) …",
+      "time": 1761308498734
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban-v2/Templates/kanban-template.md",
+      "title": "kanban-template",
+      "excerpt": "--- …",
+      "time": 1761308498681
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban-v2/Templates/dashboard-template.md",
+      "title": "dashboard-template",
+      "excerpt": "# 🧭 Dashboard général …",
+      "time": 1761308498595
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban-v2/Projets/retrospective-globale.md",
+      "title": "retrospective-globale",
+      "excerpt": "# 🔍 Rétrospective Globale …",
+      "time": 1761308498436
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-scrum-kanban-v2/00_LISEZ-MOI.md",
+      "title": "00_LISEZ-MOI",
+      "excerpt": "# 🧾 Bienvenue - Système Obsidian Scrum Kanban V2 …",
+      "time": 1761308498376
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/obsidian-canvas-multiview-demo/README.md",
+      "title": "README",
+      "excerpt": "# 🧭 Obsidian Canvas Navigation Demo …",
+      "time": 1761308498311
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/_DailyNoteTemplate2.md",
+      "title": "_DailyNoteTemplate2",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308497790
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/_DailyNoteTemplate.md",
+      "title": "_DailyNoteTemplate",
+      "excerpt": "# 🗒️ Note Quotidienne …",
+      "time": 1761308497493
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/Idée.md",
+      "title": "Idée",
+      "excerpt": "# {{title}} …",
+      "time": 1761308497423
+    },
+    {
+      "path": "00_OBSI-CORE/Modèles/Article.md",
+      "title": "Article",
+      "excerpt": "# {{title}} …",
+      "time": 1761308497084
+    },
+    {
       "path": "Guide_unifie_synchronisation_workflow_FIXED.md",
       "title": "Guide_unifie_synchronisation_workflow_FIXED",
       "excerpt": "## title: Guide unifié — Synchronisation & Workflow (PC ⇄ Android ⇄ Google Drive ⇄ GitHub) tags: [workflow, synchronisation, obsidian, syncthing, rclone, git, github, android, windows, reproducibility, ci-cd, security, resilience, governance, monitoring] created: 2025-10-23 …",
@@ -56,92 +1923,11 @@
       "time": 1761227916097
     },
     {
-      "path": "02_PERSO/_02_ICT Global/ICT_TODO.md",
-      "title": "ICT_TODO",
-      "excerpt": "- [ ] .. …",
-      "time": 1761200049360
-    },
-    {
-      "path": "02_PERSO/_02_ICT Global/XMBC vs AutoHotkey (AHK).md",
-      "title": "XMBC vs AutoHotkey (AHK)",
-      "excerpt": "## XMBC vs AutoHotkey (AHK) — quoi choisir ? …",
-      "time": 1761199944888
-    },
-    {
-      "path": "02_PERSO/_02_ICT Global/Sans titre.md",
-      "title": "Sans titre",
-      "excerpt": "SSID: VOO-YXRRUWM  …",
-      "time": 1761199940324
-    },
-    {
-      "path": "02_PERSO/_02_ICT Global/Idées discussions de fond avec IA.md",
-      "title": "Idées discussions de fond avec IA",
-      "excerpt": "# - Serait-il possible d'imaginer une sorte de crispcas 9 pour modifier les llm ? …",
-      "time": 1761199921958
-    },
-    {
-      "path": "02_PERSO/_02_ICT Global/Mémoire chatGPT - 25juil25.md",
-      "title": "Mémoire chatGPT - 25juil25",
-      "excerpt": "# 🧠 Mémoire ChatGPT – Sébastien Baudoux …",
-      "time": 1761133576978
-    },
-    {
-      "path": "02_PERSO/_02_ICT Global/Laptop Miriam.md",
-      "title": "Laptop Miriam",
-      "excerpt": "Product Name : IdeaPad Slim 5 16IAH8 …",
-      "time": 1761133575325
-    },
-    {
-      "path": "02_PERSO/_02_ICT Global/LISTE DOSSIERS-PROJETS chatGPT/Liste des projets dans chatGPT.md",
-      "title": "Liste des projets dans chatGPT",
-      "excerpt": "- Femmes de droit …",
-      "time": 1761133513675
-    },
-    {
-      "path": "02_PERSO/_02_ICT Global/Compétences, légitimité et stratégie bêta GLO.md",
-      "title": "Compétences, légitimité et stratégie bêta GLO",
-      "excerpt": "# Compétences, légitimité et stratégie bêta GLO …",
-      "time": 1761133372651
-    },
-    {
-      "path": "02_PERSO/_02_ICT Global/Carouan - Repositories · GitHub.md",
-      "title": "Carouan - Repositories · GitHub",
-      "excerpt": "## Navigation Menu …",
-      "time": 1761133367325,
-      "imageLink": "https://avatars.githubusercontent.com/u/17993209?s=64&v=4"
-    },
-    {
-      "path": "010_Ressources/Images/Pasted image 20250926125304.png",
-      "title": "Pasted image 20250926125304",
-      "excerpt": "�PNG\r …",
-      "time": 1761132142290,
-      "imageLink": "010_Ressources/Images/Pasted image 20250926125304.png"
-    },
-    {
-      "path": "04_FDD/_03_Académie/01_Plan Freemium & Conversion – Académie de FDD.md",
-      "title": "01_Plan Freemium & Conversion – Académie de FDD",
-      "excerpt": "# Plan Freemium & Conversion – Académie de **Femmes de droit** …",
-      "time": 1761033947549
-    },
-    {
-      "path": "04_FDD/_03_Académie/02_Résumé_analytique_JDG_microtransactions.md",
-      "title": "02_Résumé_analytique_JDG_microtransactions",
-      "excerpt": "# Résumé analytique — « PARLONS DES MICROTRANSACTIONS » (JDG) …",
-      "time": 1761033944747
-    },
-    {
       "path": "04_FDD/_03_Académie/03_Plan_croise_BenjaminCode_x_JDG_pour_Academie_FDD_CLEAN.md",
       "title": "03_Plan_croise_BenjaminCode_x_JDG_pour_Academie_FDD_CLEAN",
       "excerpt": "# Réflexions  …",
       "time": 1761033939827,
       "imageLink": "https://www.youtube.com/watch?v=4lvTNGnn2nA"
-    },
-    {
-      "path": "010_Ressources/Images/Pasted image 20250926143901.png",
-      "title": "Pasted image 20250926143901",
-      "excerpt": "�PNG\r …",
-      "time": 1761026839673,
-      "imageLink": "010_Ressources/Images/Pasted image 20250926143901.png"
     },
     {
       "path": "07_PUBLISH TO GITHUB/Publié/README.md",
@@ -156,92 +1942,10 @@
       "time": 1760981053743
     },
     {
-      "path": "00_OBSI-CORE/SCRIPTS/Z_MoveAndFormatClip.md",
-      "title": "Z_MoveAndFormatClip",
-      "excerpt": "<%* …",
-      "time": 1760981023979
-    },
-    {
-      "path": "00_OBSI-CORE/SCRIPTS/report-tasks.md",
-      "title": "report-tasks",
-      "excerpt": "<%* …",
-      "time": 1760981022149
-    },
-    {
-      "path": "00_OBSI-CORE/__MARKDOWN CHEATSHEET.md",
-      "title": "__MARKDOWN CHEATSHEET",
-      "excerpt": "## TEXTES …",
-      "time": 1760981005806,
-      "imageLink": "logo_gitea.jpg|150"
-    },
-    {
-      "path": "02_PERSO/_02_ICT Global/plugins à explorer_2.md",
-      "title": "plugins à explorer_2",
-      "excerpt": "Faire recherche plugins \"Templ\"\r …",
-      "time": 1760927315510
-    },
-    {
-      "path": "04_FDD/_01_Ressources basique/_01_Codes couleurs.md",
-      "title": "_01_Codes couleurs",
-      "excerpt": "",
-      "time": 1760874357057
-    },
-    {
-      "path": "02_PERSO/_03_Famille/Mites alimentaires.md",
-      "title": "Mites alimentaires",
-      "excerpt": "# Mites alimentaires : l’astuce ultime pour les éliminer de votre cuisine …",
-      "time": 1760869926838,
-      "imageLink": "https://positivr.fr/wp-content/uploads/2025/10/shutterstock_2324413627.jpg"
-    },
-    {
-      "path": "02_PERSO/_03_Famille/Hommage Tallulah.md",
-      "title": "Hommage Tallulah",
-      "excerpt": "--- …",
-      "time": 1760869926312
-    },
-    {
-      "path": "02_PERSO/_03_Famille/_URGENT.md",
-      "title": "_URGENT",
-      "excerpt": "1. [ ] PSY Violette …",
-      "time": 1760869923350
-    },
-    {
-      "path": "02_PERSO/JARVIS/Ressources brutes/Ressources brutes.md",
-      "title": "Ressources brutes",
-      "excerpt": "Date publication : 2025-10-15T19:00:00+02:00  ||  [Mites alimentaires : l’astuce ultime pour les éliminer de votre cuisine](https://positivr.fr/mites-alimentaires-lastuce-ultime-pour-les-eliminer-de-votre-cuisine/) …",
-      "time": 1760681799201
-    },
-    {
       "path": "09_ -----  INBOX    -------/Bienvenue.md",
       "title": "Bienvenue",
       "excerpt": "Voici votre nouveau *coffre*. …",
       "time": 1760432566576
-    },
-    {
-      "path": "04_FDD/FDD - Plugin InPost Mondial Relay.md",
-      "title": "FDD - Plugin InPost Mondial Relay",
-      "excerpt": "https://mondialrelay-wp.com/mon-compte/ …",
-      "time": 1760432561655,
-      "imageLink": "Pasted image 20251012150043.png"
-    },
-    {
-      "path": "02_PERSO/MyMinfin.md",
-      "title": "MyMinfin",
-      "excerpt": "--- …",
-      "time": 1760432544682
-    },
-    {
-      "path": "02_PERSO/_02_ICT Global/Plugins à explorer.md",
-      "title": "Plugins à explorer",
-      "excerpt": "![[Pasted image 20250926125304.png]]",
-      "time": 1760432436247,
-      "imageLink": "010_Ressources/Images/Pasted image 20250926125304.png"
-    },
-    {
-      "path": "03_FAMILLE/FILLES/CONTACTS.md",
-      "title": "CONTACTS",
-      "excerpt": "### PODOLOGUE : …",
-      "time": 1760432401028
     }
   ],
   "openAsHomepage": true
