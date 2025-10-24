@@ -1,0 +1,61 @@
+{
+  "styles": {
+    "02_PERSO": {
+      "backgroundColor": "#a7ec8e",
+      "isBold": true
+    },
+    "02_PERSO/_02_ICT Global/Mémoire chatGPT - 25juil25.md": {},
+    "02_PERSO/_02_ICT Global/XMBC vs AutoHotkey (AHK).md": {
+      "isBold": true,
+      "textColor": "#f10909",
+      "backgroundColor": "#e2bb2c",
+      "opacity": 0.9
+    },
+    "02_PERSO/_02_ICT Global/ICT_TODO.md": {
+      "isBold": true,
+      "textColor": "#f10909",
+      "backgroundColor": "#e2bb2c",
+      "opacity": 0.9
+    },
+    "00_OBSI-CORE": {
+      "backgroundColor": "#050000",
+      "textColor": "#f5cc00",
+      "isBold": true,
+      "isItalic": true,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
+    }
+  },
+  "presets": {
+    "Working": {
+      "isBold": true,
+      "textColor": "#f10909",
+      "backgroundColor": "#e2bb2c",
+      "opacity": 0.9
+    },
+    "DOC": {
+      "backgroundColor": "#050000",
+      "textColor": "#44ff00",
+      "isBold": true,
+      "isItalic": true,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
+    },
+    "CORE_Settings&Scripts": {
+      "backgroundColor": "#050000",
+      "textColor": "#f5cc00",
+      "isBold": true,
+      "isItalic": true,
+      "opacity": 1,
+      "applyToSubfolders": false,
+      "applyToFiles": false
+    }
+  },
+  "presetOrder": [
+    "Working",
+    "DOC",
+    "CORE_Settings&Scripts"
+  ]
+}

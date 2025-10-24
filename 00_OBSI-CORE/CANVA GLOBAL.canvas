@@ -1,0 +1,35 @@
+{
+	"edges":[],
+	"metadata":{
+		"frontmatter":{},
+		"version":"1.0-1.0"
+	},
+	"nodes":[
+		{
+			"id":"2738a0615c940ac0",
+			"styleAttributes":{},
+			"text":"## 🕒 Dernières notes modifiées dans 02_PERSO\n```dataview\nlist from \"02_PERSO\"\nsort file.mtime desc\nlimit 10",
+			"type":"text",
+			"x":-120,
+			"y":-160,
+			"width":480,
+			"height":440,
+			"color":"4"
+		},
+		{
+			"id":"455a1ece36c56aea",
+			"styleAttributes":{},
+			"text":"## 🕒 Dernières notes modifiées dans 04_FDD\n```dataview\nlist from \"04_FDD\"\nsort file.mtime desc\nlimit 10",
+			"type":"text",
+			"x":360,
+			"y":-160,
+			"width":540,
+			"height":440,
+			"color":"#7ecdd7"
+		},
+		{"id":"f5379eab6133a39c","text":"## 🕒 Dernières notes modifiées\n```dataview\nlist from \"\"\nsort file.mtime desc\nlimit 10","type":"text","x":900,"y":-160,"width":360,"height":440},
+		{"file":"00_OBSI-CORE/Modèles/obsidian-scrum-kanban-v2/Templates/dashboard-template.md","id":"2b5793e690395a08","type":"file","x":360,"y":340,"width":660,"height":827},
+		{"file":"01_Periodic Notes/01.1_Daily/25.06.03.mar..md","id":"2ec25135fd6affb7","type":"file","x":-120,"y":-780,"width":1600,"height":620},
+		{"file":"09_ -----  INBOX    -------/attachments/Pasted image 20250603104403.png","id":"9909c2ac0a214755","type":"file","x":1080,"y":380,"width":1006,"height":520}
+	]
+}

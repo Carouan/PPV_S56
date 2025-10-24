@@ -1,0 +1,19 @@
+filters:
+  and:
+    - file.path.startsWith("00")
+views:
+  - type: table
+    name: Table
+    order:
+      - file.folder
+      - file.name
+    sort:
+      - property: file.path
+        direction: ASC
+    columnSize:
+      file.folder: 442
+  - type: cards
+    name: View
+    cardSize: 310
+    imageFit: ""
+    imageAspectRatio: 0.6

@@ -1,0 +1,182 @@
+/* Easy Keep View Main Container */
+.easy-keep-view-main {
+    overflow-y: auto;
+    height: 100%;
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+/* Grid Container */
+.easy-keep-cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(125px, 1fr));
+    gap: 16px;
+    padding: 12px;
+    align-content: start;
+    min-height: 100%;
+    box-sizing: border-box;
+}
+
+/* Card Design */
+.easy-keep-card {
+    width: 100%;
+    min-height: 160px;
+    padding: 8px;
+    border: 1px solid var(--divider-color);
+    border-radius: 12px;
+    background-color: var(--background-primary);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    color: var(--text-normal);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Hover Effects */
+.easy-keep-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+}
+
+/* Card Title */
+.easy-keep-card h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    color: var(--h3-color);
+    line-height: 1.2;
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Thumbnail */
+.easy-keep-thumbnail {
+    max-width: 100%;
+    max-height: 80px;
+    object-fit: cover;
+    border-radius: 6px;
+    margin-top: 8px;
+    display: block;
+}
+
+/* Card Excerpt */
+.easy-keep-card p {
+    font-size: 12px;
+    color: var(--text-muted);
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 5;
+    line-clamp: 5;
+    -webkit-box-orient: vertical;
+    margin-top: 6px;
+}
+
+/* New Note Card */
+.new-note-card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: 2px dashed var(--divider-color);
+    padding: 8px;
+    background-color: var(--background-secondary);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    color: var(--text-muted);
+    cursor: pointer;
+}
+
+.new-note-card h3 {
+    font-size: 36px;
+    margin-bottom: 6px;
+    color: var(--text-muted);
+    line-height: 1;
+}
+
+.new-note-card p {
+    font-size: 12px;
+    text-align: center;
+    font-weight: 700;
+    color: var(--text-muted);
+}
+
+/* No Notes Message */
+.no-history-message {
+    font-size: 14px;
+    color: var(--text-muted);
+    text-align: center;
+    padding: 10px;
+    width: 100%;
+}
+
+/* Thumbnail Image (Full Background) */
+.thumbnail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Mobile Responsiveness */
+@media (max-width: 768px) {
+    .easy-keep-cards-container {
+        grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+        gap: 12px;
+    }
+
+    .easy-keep-card {
+        padding: 6px;
+        min-height: 140px;
+    }
+
+    .easy-keep-card h3 {
+        font-size: 12px;
+    }
+
+    .easy-keep-card p {
+        font-size: 11px;
+    }
+
+    .easy-keep-thumbnail {
+        max-height: 60px;
+    }
+
+    .new-note-card {
+        padding: 6px;
+    }
+}
+
+@media (max-width: 480px) {
+    .easy-keep-cards-container {
+        grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
+        gap: 8px;
+        padding: 6px;
+    }
+
+    .easy-keep-card {
+        padding: 6px;
+        min-height: 120px;
+    }
+
+    .easy-keep-card h3 {
+        font-size: 10px;
+    }
+
+    .easy-keep-card p {
+        font-size: 10px;
+    }
+
+    .easy-keep-thumbnail {
+        max-height: 50px;
+    }
+
+    .new-note-card {
+        padding: 6px;
+    }
+}

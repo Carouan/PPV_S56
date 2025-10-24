@@ -1,0 +1,24 @@
+
+- [ ] ..
+- [ ] Différence et pertinence d'utiliser BleachBit / UniGetUI / Chocolatey 
+- [ ] ..
+- [ ] X-Mouse Button Control 2.20.05
+- [ ] Corriger userscript Powershell
+- [ ] Configurer espace de travail repos github sur Notepad++
+- [ ] Configurer assistant IA sur Npp
+- [ ] Créer espace de travail Npp vers les repos Obsidian.
+- [ ]  ? Différence entre Projet et Espace de travail dans Npp
+- [ ] Serait-il possible d'imaginer une sorte de crispcas 9 pour modifier les llm ?
+- [ ] --
+- [ ] ---
+- [ ] Tube éolien voiture
+- [ ] Authentification Intranet par invitation mail mais validation pour API Google
+- [ ] Enregistrement IP laptop Bureau et maison afin de vérifier.
+- [ ] Capteurs jogger
+- [ ] Essuis glace arrière jogger
+- [ ] Partage dossier favoris chrome
+- [ ] Relancer pour le podcast FDD
+- [ ] Oreillettes Bluetooth
+- [ ] Lentilles infrarouges
+- [ ] -
+- [ ] 

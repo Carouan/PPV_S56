@@ -1,0 +1,13 @@
+[core]
+	repositoryformatversion = 1
+	filemode = false
+	bare = false
+	logallrefupdates = true
+	symlinks = false
+	ignorecase = true
+[submodule]
+	active = .
+[remote "origin"]
+	url = git@github.com:Carouan/PPV_S56.git
+[lfs]
+	repositoryformatversion = 0

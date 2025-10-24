@@ -1,0 +1,17 @@
+{
+  "clientId": "",
+  "clientSecret": "",
+  "accessToken": "",
+  "refreshToken": "",
+  "tokenExpiresAt": 0,
+  "contactsFolder": "Contacts",
+  "noteTemplate": "# Notes\n",
+  "fileNamePrefix": "",
+  "propertyNamePrefix": "",
+  "syncLabel": "",
+  "syncIntervalMinutes": 1440,
+  "syncOnStartup": true,
+  "trackSyncTime": false,
+  "organizationAsLink": false,
+  "lastSyncTime": "2025-10-24T08:29:32.809Z"
+}

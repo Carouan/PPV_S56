@@ -1,0 +1,248 @@
+{
+  "mySetting": "default",
+  "notesDB": [
+    {
+      "path": "Guide_unifie_synchronisation_workflow_FIXED.md",
+      "title": "Guide_unifie_synchronisation_workflow_FIXED",
+      "excerpt": "## title: Guide unifié — Synchronisation & Workflow (PC ⇄ Android ⇄ Google Drive ⇄ GitHub) tags: [workflow, synchronisation, obsidian, syncthing, rclone, git, github, android, windows, reproducibility, ci-cd, security, resilience, governance, monitoring] created: 2025-10-23 …",
+      "time": 1761294574749
+    },
+    {
+      "path": "Sans titre.md",
+      "title": "Sans titre",
+      "excerpt": "# 📧 À Belga (photo desk) …",
+      "time": 1761291309712
+    },
+    {
+      "path": "A trier.md",
+      "title": "A trier",
+      "excerpt": "## Basic …",
+      "time": 1761291307842
+    },
+    {
+      "path": "_1_Obsidian_Git_Sync_Publication_clean.md",
+      "title": "_1_Obsidian_Git_Sync_Publication_clean",
+      "excerpt": "--- …",
+      "time": 1761282650119
+    },
+    {
+      "path": "_92_Synchronisation et backup.md",
+      "title": "_92_Synchronisation et backup",
+      "excerpt": "Génial — voici le **pack complet prêt à l’emploi** avec modèles, scripts et workflows. Tu peux l’importer tel quel dans ton Vault ou sur tes machines, puis adapter les chemins. …",
+      "time": 1761282554613
+    },
+    {
+      "path": "Guide_unifie_synchronisation_workflow_pc_⇄_android_⇄_drive_⇄_git_hub.md",
+      "title": "Guide_unifie_synchronisation_workflow_pc_⇄_android_⇄_drive_⇄_git_hub",
+      "excerpt": "## title: Guide unifié — Synchronisation & Workflow (PC ⇄ Android ⇄ Google Drive ⇄ GitHub) tags: [workflow, synchronisation, obsidian, syncthing, rclone, git, github, android, windows, reproducibility, ci-cd, security, resilience, governance, monitoring] created: 2025-10-23 …",
+      "time": 1761244456251
+    },
+    {
+      "path": "_2_Synchronisation_globale_guide.md",
+      "title": "_2_Synchronisation_globale_guide",
+      "excerpt": "--- …",
+      "time": 1761242388545
+    },
+    {
+      "path": "_2bis_Synchronisation_globale_fichiers_dossiers.md",
+      "title": "_2bis_Synchronisation_globale_fichiers_dossiers",
+      "excerpt": "--- …",
+      "time": 1761240194906
+    },
+    {
+      "path": "_3_Workflow_global_PC-Android-Drive-GitHub.md",
+      "title": "_3_Workflow_global_PC-Android-Drive-GitHub",
+      "excerpt": "--- …",
+      "time": 1761227916097
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/ICT_TODO.md",
+      "title": "ICT_TODO",
+      "excerpt": "- [ ] .. …",
+      "time": 1761200049360
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/XMBC vs AutoHotkey (AHK).md",
+      "title": "XMBC vs AutoHotkey (AHK)",
+      "excerpt": "## XMBC vs AutoHotkey (AHK) — quoi choisir ? …",
+      "time": 1761199944888
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Sans titre.md",
+      "title": "Sans titre",
+      "excerpt": "SSID: VOO-YXRRUWM  …",
+      "time": 1761199940324
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Idées discussions de fond avec IA.md",
+      "title": "Idées discussions de fond avec IA",
+      "excerpt": "# - Serait-il possible d'imaginer une sorte de crispcas 9 pour modifier les llm ? …",
+      "time": 1761199921958
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Mémoire chatGPT - 25juil25.md",
+      "title": "Mémoire chatGPT - 25juil25",
+      "excerpt": "# 🧠 Mémoire ChatGPT – Sébastien Baudoux …",
+      "time": 1761133576978
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Laptop Miriam.md",
+      "title": "Laptop Miriam",
+      "excerpt": "Product Name : IdeaPad Slim 5 16IAH8 …",
+      "time": 1761133575325
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/LISTE DOSSIERS-PROJETS chatGPT/Liste des projets dans chatGPT.md",
+      "title": "Liste des projets dans chatGPT",
+      "excerpt": "- Femmes de droit …",
+      "time": 1761133513675
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Compétences, légitimité et stratégie bêta GLO.md",
+      "title": "Compétences, légitimité et stratégie bêta GLO",
+      "excerpt": "# Compétences, légitimité et stratégie bêta GLO …",
+      "time": 1761133372651
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Carouan - Repositories · GitHub.md",
+      "title": "Carouan - Repositories · GitHub",
+      "excerpt": "## Navigation Menu …",
+      "time": 1761133367325,
+      "imageLink": "https://avatars.githubusercontent.com/u/17993209?s=64&v=4"
+    },
+    {
+      "path": "010_Ressources/Images/Pasted image 20250926125304.png",
+      "title": "Pasted image 20250926125304",
+      "excerpt": "�PNG\r …",
+      "time": 1761132142290,
+      "imageLink": "010_Ressources/Images/Pasted image 20250926125304.png"
+    },
+    {
+      "path": "04_FDD/_03_Académie/01_Plan Freemium & Conversion – Académie de FDD.md",
+      "title": "01_Plan Freemium & Conversion – Académie de FDD",
+      "excerpt": "# Plan Freemium & Conversion – Académie de **Femmes de droit** …",
+      "time": 1761033947549
+    },
+    {
+      "path": "04_FDD/_03_Académie/02_Résumé_analytique_JDG_microtransactions.md",
+      "title": "02_Résumé_analytique_JDG_microtransactions",
+      "excerpt": "# Résumé analytique — « PARLONS DES MICROTRANSACTIONS » (JDG) …",
+      "time": 1761033944747
+    },
+    {
+      "path": "04_FDD/_03_Académie/03_Plan_croise_BenjaminCode_x_JDG_pour_Academie_FDD_CLEAN.md",
+      "title": "03_Plan_croise_BenjaminCode_x_JDG_pour_Academie_FDD_CLEAN",
+      "excerpt": "# Réflexions  …",
+      "time": 1761033939827,
+      "imageLink": "https://www.youtube.com/watch?v=4lvTNGnn2nA"
+    },
+    {
+      "path": "010_Ressources/Images/Pasted image 20250926143901.png",
+      "title": "Pasted image 20250926143901",
+      "excerpt": "�PNG\r …",
+      "time": 1761026839673,
+      "imageLink": "010_Ressources/Images/Pasted image 20250926143901.png"
+    },
+    {
+      "path": "07_PUBLISH TO GITHUB/Publié/README.md",
+      "title": "README",
+      "excerpt": "# PPV_S56 …",
+      "time": 1760981056693
+    },
+    {
+      "path": "07_PUBLISH TO GITHUB/Publié/FDD/Réflexions Académie FDD.md",
+      "title": "Réflexions Académie FDD",
+      "excerpt": "## Objectif …",
+      "time": 1760981053743
+    },
+    {
+      "path": "00_OBSI-CORE/SCRIPTS/Z_MoveAndFormatClip.md",
+      "title": "Z_MoveAndFormatClip",
+      "excerpt": "<%* …",
+      "time": 1760981023979
+    },
+    {
+      "path": "00_OBSI-CORE/SCRIPTS/report-tasks.md",
+      "title": "report-tasks",
+      "excerpt": "<%* …",
+      "time": 1760981022149
+    },
+    {
+      "path": "00_OBSI-CORE/__MARKDOWN CHEATSHEET.md",
+      "title": "__MARKDOWN CHEATSHEET",
+      "excerpt": "## TEXTES …",
+      "time": 1760981005806,
+      "imageLink": "logo_gitea.jpg|150"
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/plugins à explorer_2.md",
+      "title": "plugins à explorer_2",
+      "excerpt": "Faire recherche plugins \"Templ\"\r …",
+      "time": 1760927315510
+    },
+    {
+      "path": "04_FDD/_01_Ressources basique/_01_Codes couleurs.md",
+      "title": "_01_Codes couleurs",
+      "excerpt": "",
+      "time": 1760874357057
+    },
+    {
+      "path": "02_PERSO/_03_Famille/Mites alimentaires.md",
+      "title": "Mites alimentaires",
+      "excerpt": "# Mites alimentaires : l’astuce ultime pour les éliminer de votre cuisine …",
+      "time": 1760869926838,
+      "imageLink": "https://positivr.fr/wp-content/uploads/2025/10/shutterstock_2324413627.jpg"
+    },
+    {
+      "path": "02_PERSO/_03_Famille/Hommage Tallulah.md",
+      "title": "Hommage Tallulah",
+      "excerpt": "--- …",
+      "time": 1760869926312
+    },
+    {
+      "path": "02_PERSO/_03_Famille/_URGENT.md",
+      "title": "_URGENT",
+      "excerpt": "1. [ ] PSY Violette …",
+      "time": 1760869923350
+    },
+    {
+      "path": "02_PERSO/JARVIS/Ressources brutes/Ressources brutes.md",
+      "title": "Ressources brutes",
+      "excerpt": "Date publication : 2025-10-15T19:00:00+02:00  ||  [Mites alimentaires : l’astuce ultime pour les éliminer de votre cuisine](https://positivr.fr/mites-alimentaires-lastuce-ultime-pour-les-eliminer-de-votre-cuisine/) …",
+      "time": 1760681799201
+    },
+    {
+      "path": "09_ -----  INBOX    -------/Bienvenue.md",
+      "title": "Bienvenue",
+      "excerpt": "Voici votre nouveau *coffre*. …",
+      "time": 1760432566576
+    },
+    {
+      "path": "04_FDD/FDD - Plugin InPost Mondial Relay.md",
+      "title": "FDD - Plugin InPost Mondial Relay",
+      "excerpt": "https://mondialrelay-wp.com/mon-compte/ …",
+      "time": 1760432561655,
+      "imageLink": "Pasted image 20251012150043.png"
+    },
+    {
+      "path": "02_PERSO/MyMinfin.md",
+      "title": "MyMinfin",
+      "excerpt": "--- …",
+      "time": 1760432544682
+    },
+    {
+      "path": "02_PERSO/_02_ICT Global/Plugins à explorer.md",
+      "title": "Plugins à explorer",
+      "excerpt": "![[Pasted image 20250926125304.png]]",
+      "time": 1760432436247,
+      "imageLink": "010_Ressources/Images/Pasted image 20250926125304.png"
+    },
+    {
+      "path": "03_FAMILLE/FILLES/CONTACTS.md",
+      "title": "CONTACTS",
+      "excerpt": "### PODOLOGUE : …",
+      "time": 1760432401028
+    }
+  ],
+  "openAsHomepage": true
+}

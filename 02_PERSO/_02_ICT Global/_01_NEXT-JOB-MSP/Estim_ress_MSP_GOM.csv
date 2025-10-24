@@ -1,0 +1,10 @@
+Outil,Type,RAM (Mo),CPU (GHz),Stockage (Go)
+GLPI,PSA,512,1.0,2.0
+MeshCentral,RMM,512,0.5,0.5
+CheckMK RAW,Monitoring,1024,1.5,2.0
+Ansible,Automatisation,256,0.5,0.5
+Vaultwarden,Password Manager,128,0.2,0.5
+BookStack,Documentation,512,0.5,1.0
+Grafana,Dashboard,256,0.5,0.5
+n8n,Automatisation,512,0.8,1.0
+Nextcloud (light),Fichiers/Cloud,512,1.0,2.0
