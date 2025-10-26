@@ -1,0 +1,18 @@
+/* ---- Lecture (Reading view / Preview) ---- */
+.markdown-preview-view pre > code {
+  padding-left: 3.2em !important;   /* décale le texte pour laisser le gutter */
+}
+.markdown-preview-view pre[class*="language-"] > code {
+  padding-left: 3.2em !important;   /* thèmes Prism/Material */
+}
+.markdown-preview-view pre,
+.markdown-preview-view pre > code {
+  overflow: visible !important;     /* évite la coupe du 1er caractère */
+}
+
+/* ---- Édition (Live Preview / Editor) ---- */
+.cm-editor .cm-lineNumbers .cm-gutterElement { min-width: 3em !important; }
+.cm-editor .HyperMD-codeblock { padding-left: 3.2em !important; }
+
+/* Certains thèmes appliquent le padding sur <pre>, pas sur <code> */
+.markdown-preview-view pre[class*="language-"] { padding-left: 3.2em !important; }
